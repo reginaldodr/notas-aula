@@ -27,7 +27,15 @@
 \usepackage[rm]{titlesec}
 \usepackage{fancybox}
 \usepackage[hmargin=1cm,vmargin=1.5cm]{geometry}
-\usepackage{tikz}
+
+\usepackage{pgf,tikz}
+\usetikzlibrary{calc}
+
+\usetikzlibrary{decorations.pathreplacing}
+\usepackage{tkz-euclide}
+\usepackage{tabu}
+
+
 \usepackage{tcolorbox}
 \usepackage{stmaryrd}
 
@@ -126,10 +134,10 @@ lang={brazilian},
 \newcommand{\dm}{d}
 \newcommand{\vt}[1]{\overrightarrow{#1}}
 
-\newcommand{\marcador}[1]{%
+\newcommand{\marcador}[2]{%
 	\phantomsection%
-	\addcontentsline{toc}{section}{#1}%
-	\noindent {\large \textbf{#1}}\par\vspace{1em}%
+	\addcontentsline{toc}{#1}{#2}%
+	\noindent {\large \textbf{#2}}\par\vspace{1em}%
 }
 
 %-------------- espaços e normas ------------------------

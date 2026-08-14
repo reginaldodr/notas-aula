@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.7.28)  14 AUG 2026 15:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.7.28)  14 AUG 2026 18:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -808,7 +808,277 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutvoffset=\dimen303
 \Gm@dimlist=\toks54
 )
-(/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathreplacing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
+e.tex
+\pgfdecoratedcompleteddistance=\dimen304
+\pgfdecoratedremainingdistance=\dimen305
+\pgfdecoratedinputsegmentcompleteddistance=\dimen306
+\pgfdecoratedinputsegmentremainingdistance=\dimen307
+\pgf@decorate@distancetomove=\dimen308
+\pgf@decorate@repeatstate=\count347
+\pgfdecorationsegmentamplitude=\dimen309
+\pgfdecorationsegmentlength=\dimen310
+)
+\tikz@lib@dec@box=\box84
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathreplacing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-euclide.sty
+2026/01/22 5.12c tkz-euclide.sty
+Package: tkz-euclide  2026/01/22 5.12c for pure Euclidean Geometry 
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryangles.code.tex
+File: tikzlibraryangles.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
+tex
+File: pgflibraryarrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\arrowsize=\dimen311
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
+code.tex
+File: pgflibraryarrows.meta.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowinset=\dimen312
+\pgfarrowlength=\dimen313
+\pgfarrowwidth=\dimen314
+\pgfarrowlinewidth=\dimen315
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@layerbox@background=\box85
+\pgf@layerboxsaved@background=\box86
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.markings.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.markings.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.shapes.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.shapes.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.text.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.text.code.tex
+\pgf@lib@dec@text@box=\box87
+)
+\tikz@lib@dec@te@box=\box88
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathmorphing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathmorphing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryintersections.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersection
+s.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
+)
+\pgf@intersect@solutions=\count348
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarymath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryfpu.code.tex)
+\tikz@math@for@depth=\count349
+\tikz@math@dimen=\dimen316
+\tikz@math@toks=\toks55
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
+de.tex
+File: pgflibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryquotes.code.tex
+File: tikzlibraryquotes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarythrough.code.tex
+File: tikzlibrarythrough.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xfp/xfp.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2026-01-19 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count350
+))
+Package: xfp 2025-10-09 L3 Floating point unit
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xpatch/xpatch.sty
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2025-10-09 L3 Experimental document command parser
+))
+\tkzRadius=\dimen317
+\tkzLength=\dimen318
+\tkz@radi=\dimen319
+\tkz@ax=\dimen320
+\tkz@ay=\dimen321
+\tkz@bx=\dimen322
+\tkz@by=\dimen323
+\tkz@cx=\dimen324
+\tkz@cy=\dimen325
+\tkz@dx=\dimen326
+\tkz@dy=\dimen327
+\tkz@cntmk=\count351
+
+Local configuration file tkz-euclide.cfg found and used
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-euclide.cfg
+2026/01/22 5.12c tkz-euclide.cfg
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-base.tex
+2026/01/22 5.12c tkz-tools-eu-base.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-utilities.tex
+2026/01/22 5.12c tkz-tools-eu-utilities.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-BB.tex
+2026/01/22 5.12c tkz-obj-eu-BB.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-grids.tex
+2026/01/22 5.12c tkz-obj-eu-grids.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-lib-eu-marks.tex
+2026/01/22 5.12c tkz-lib-eu-marks.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-text.tex
+2026/01/22 5.12c tkz-tools-eu-text.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-lib-eu-shape.tex
+2026/01/22 5.12c tkz-lib-eu-shape.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-axesmin.tex
+2026/01/22 5.12c tkz-obj-eu-axesmin
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-colors.tex
+2026/01/22 5.12c tkz-tools-eu-colors
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points.tex
+2026/01/22 5.12c tkz-obj-eu-points.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-points.tex
+2026/01/22 5.12c tkz-draw-eu-points.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points.tex
+2026/01/22 5.12c tkz-obj-eu-points.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-by.tex
+2026/01/22 5.12c tkz-tools-eu-points-by.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-math.tex
+2026/01/22 5.12c tkz-tools-eu-math.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-intersections
+.tex
+2026/01/22 5.12c tkz-tools-eu-intersections.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-with.tex
+2026/01/22 5.12c tkz-obj-eu-points-with.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-spc.tex
+2026/01/22 5.12c tkz-obj-el-points.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-angles.tex
+2026/01/22 5.12c tkz-tools-eu-angles.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-circles.tex
+2026/01/22 5.12c tkz-obj-eu-circles.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-circles-by.tex
+2026/01/22 5.12c tkz-obj-eu-circles.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-rnd.tex
+2026/01/22 5.12c tkz-obj-eu-points-rnd.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-lines.tex
+2026/01/22 5.12c tkz-obj-eu-lines.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-polygons.tex
+2026/01/22 5.12c tkz-obj-eu-polygons.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-triangles.tex
+2026/01/22 5.12c tkz-obj-eu-triangles.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-lines.tex
+2026/01/22 5.12c tkz-obj-eu-draw-lines.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-circles.tex
+2026/01/22 5.12c tkz-obj-eu-draw-circles.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-ellipses.tex
+2026/01/22 5.12c tkz-obj-eu-draw-ellipses.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-polygons.tex
+2026/01/22 5.12c tkz-obj-eu-polygons.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-arcs.tex
+2026/01/22 5.12c tkz-tool-eu-arcs.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-angles.tex
+2026/01/22 5.12c tkz-tool-eu-angles.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-sectors.tex
+2026/01/22 5.12c tkz-obj-eu-sectors.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-compass.tex
+2026/01/22 5.12c tkz-obj-eu-compass.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-show.tex
+2026/01/22 5.12c tkz-obj-eu-show.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-protractor.tex
+2026/01/22 5.12c tkz-obj-eu-protractor.tex
+)) (/usr/share/texlive/texmf-dist/tex/latex/tabu/tabu.sty
+Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed) + inter
+mediate FMi
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen328
+\ar@mcellbox=\box89
+\extrarowheight=\dimen329
+\NC@list=\toks56
+\extratabsurround=\skip78
+\backup@length=\skip79
+\ar@cellbox=\box90
+)
+(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box91
+\sift@deathcycles=\count352
+\@vwid@loff=\dimen330
+\@vwid@roff=\dimen331
+)
+==> First Aid for varwidth.sty applied!
+\c@taburow=\count353
+\tabu@nbcols=\count354
+\tabu@cnt=\count355
+\tabu@Xcol=\count356
+\tabu@alloc=\count357
+\tabu@nested=\count358
+\tabu@target=\dimen332
+\tabu@spreadtarget=\dimen333
+\tabu@naturalX=\dimen334
+\tabucolX=\dimen335
+\tabu@Xsum=\dimen336
+\extrarowdepth=\dimen337
+\abovetabulinesep=\dimen338
+\belowtabulinesep=\dimen339
+\tabustrutrule=\dimen340
+\tabu@thebody=\toks57
+\tabu@footnotes=\toks58
+\tabu@box=\box92
+\tabu@arstrutbox=\box93
+\tabu@hleads=\box94
+\tabu@vleads=\box95
+\tabu@cellskip=\skip80
+) (/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
 Package: stmaryrd 1994/03/03 St Mary's Road symbol package
 \symstmry=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
@@ -816,40 +1086,28 @@ LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
-\c@tracingmulticols=\count347
-\mult@box=\box84
-\multicol@leftmargin=\dimen304
-\c@unbalance=\count348
-\c@collectmore=\count349
-\doublecol@number=\count350
-\multicoltolerance=\count351
-\multicolpretolerance=\count352
-\full@width=\dimen305
-\page@free=\dimen306
-\premulticols=\dimen307
-\postmulticols=\dimen308
-\multicolsep=\skip78
-\multicolbaselineskip=\skip79
-\partial@page=\box85
-\last@line=\box86
-\mc@boxedresult=\box87
-\maxbalancingoverflow=\dimen309
-\mult@rightbox=\box88
-\mult@grightbox=\box89
-\mult@firstbox=\box90
-\mult@gfirstbox=\box91
-\@tempa=\box92
-\@tempa=\box93
-\@tempa=\box94
-\@tempa=\box95
-\@tempa=\box96
-\@tempa=\box97
-\@tempa=\box98
-\@tempa=\box99
-\@tempa=\box100
-\@tempa=\box101
-\@tempa=\box102
-\@tempa=\box103
+\c@tracingmulticols=\count359
+\mult@box=\box96
+\multicol@leftmargin=\dimen341
+\c@unbalance=\count360
+\c@collectmore=\count361
+\doublecol@number=\count362
+\multicoltolerance=\count363
+\multicolpretolerance=\count364
+\full@width=\dimen342
+\page@free=\dimen343
+\premulticols=\dimen344
+\postmulticols=\dimen345
+\multicolsep=\skip81
+\multicolbaselineskip=\skip82
+\partial@page=\box97
+\last@line=\box98
+\mc@boxedresult=\box99
+\maxbalancingoverflow=\dimen346
+\mult@rightbox=\box100
+\mult@grightbox=\box101
+\mult@firstbox=\box102
+\mult@gfirstbox=\box103
 \@tempa=\box104
 \@tempa=\box105
 \@tempa=\box106
@@ -874,16 +1132,28 @@ Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
 \@tempa=\box125
 \@tempa=\box126
 \@tempa=\box127
-\c@minrows=\count353
-\c@columnbadness=\count354
-\c@finalcolumnbadness=\count355
-\last@try=\dimen310
-\multicolovershoot=\dimen311
-\multicolundershoot=\dimen312
-\mult@nat@firstbox=\box128
-\colbreak@box=\box129
-\mc@col@check@num=\count356
-\g__mc_curr_col_int=\count357
+\@tempa=\box128
+\@tempa=\box129
+\@tempa=\box130
+\@tempa=\box131
+\@tempa=\box132
+\@tempa=\box133
+\@tempa=\box134
+\@tempa=\box135
+\@tempa=\box136
+\@tempa=\box137
+\@tempa=\box138
+\@tempa=\box139
+\c@minrows=\count365
+\c@columnbadness=\count366
+\c@finalcolumnbadness=\count367
+\last@try=\dimen347
+\multicolovershoot=\dimen348
+\multicolundershoot=\dimen349
+\mult@nat@firstbox=\box140
+\colbreak@box=\box141
+\mc@col@check@num=\count368
+\g__mc_curr_col_int=\count369
 )
 (/usr/share/texlive/texmf-dist/tex/latex/ccicons/ccicons.sty
 Package: ccicons 2017/10/30 v1.6 LaTeX support for Creative Commons icons
@@ -893,29 +1163,18 @@ Package: xkeyval 2025/11/04 v2.10 package option processing (HA)
 
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks55
-\XKV@tempa@toks=\toks56
-\XKV@tempb@toks=\toks57
+\XKV@toks=\toks59
+\XKV@tempa@toks=\toks60
+\XKV@tempb@toks=\toks61
 )
-\XKV@depth=\count358
+\XKV@depth=\count370
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )))
 (/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
-\col@sep=\dimen313
-\ar@mcellbox=\box130
-\extrarowheight=\dimen314
-\NC@list=\toks58
-\extratabsurround=\skip80
-\backup@length=\skip81
-\ar@cellbox=\box131
-)
-\rotheadsize=\dimen315
-\c@nlinenum=\count359
-\TeXr@lab=\toks59
+\rotheadsize=\dimen350
+\c@nlinenum=\count371
+\TeXr@lab=\toks62
 )
 (/usr/share/texlive/texmf-dist/tex/latex/datetime/datetime.sty
 Package: datetime 2015/03/20 v2.60 Date Time Package
@@ -932,45 +1191,45 @@ Package: fcprefix 2012/09/28
 
 (/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
 Package: fcnumparser 2017/06/15
-\fc@digit@counter=\count360
+\fc@digit@counter=\count372
 ))
-\c@padzeroesN=\count361
-\fc@tmpcatcode=\count362
+\c@padzeroesN=\count373
+\fc@tmpcatcode=\count374
 
 (/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-portuges.def
 File: fc-portuges.def 2017/12/26
 )
-\@DT@modctr=\count363
-\@ordinalctr=\count364
-\@orgargctr=\count365
-\@strctr=\count366
-\@tmpstrctr=\count367
-\@DT@loopN=\count368
-\@DT@X=\count369
+\@DT@modctr=\count375
+\@ordinalctr=\count376
+\@orgargctr=\count377
+\@strctr=\count378
+\@tmpstrctr=\count379
+\@DT@loopN=\count380
+\@DT@X=\count381
 )
 (/usr/share/texlive/texmf-dist/tex/latex/datetime/datetime-defaults.sty
 Package: datetime-defaults 2013/09/10
 )
-\@day=\count370
-\@month=\count371
-\@year=\count372
-\c@HOUR=\count373
-\c@HOURXII=\count374
-\c@MINUTE=\count375
-\c@TOHOUR=\count376
-\c@TOMINUTE=\count377
-\c@SECOND=\count378
-\currenthour=\count379
-\currentminute=\count380
-\currentsecond=\count381
+\@day=\count382
+\@month=\count383
+\@year=\count384
+\c@HOUR=\count385
+\c@HOURXII=\count386
+\c@MINUTE=\count387
+\c@TOHOUR=\count388
+\c@TOMINUTE=\count389
+\c@SECOND=\count390
+\currenthour=\count391
+\currentminute=\count392
+\currentsecond=\count393
 Package datetime Info: No datetime.cfg file found, using default settings on in
 put line 308.
-\@dtctr=\count382
-\dayofyear=\count383
-\dayofweek=\count384
+\@dtctr=\count394
+\dayofyear=\count395
+\dayofweek=\count396
 LaTeX Info: Redefining \today on input line 736.
-\dt@a=\toks60
-\dt@b=\toks61
+\dt@a=\toks63
+\dt@b=\toks64
 )
 (/usr/share/texlive/texmf-dist/tex/latex/doclicense/doclicense.sty
 Package: doclicense 2023/10/01 v3.3.0 Support for putting documents under a lic
@@ -984,15 +1243,15 @@ Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
-\xs_counta=\count385
-\xs_countb=\count386
+\xs_counta=\count397
+\xs_countb=\count398
 )
 Package: xstring 2023/08/22 v1.86 String manipulations (CT)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperxmp/hyperxmp.sty
 Package: hyperxmp 2024/03/17 v5.13 Store hyperref metadata in XMP format
-\hyxmp@aep@toks=\toks62
-\@hyxmp@count=\count387
+\hyxmp@aep@toks=\toks65
+\@hyxmp@count=\count399
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/ifdraft.sty
 Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
@@ -1000,13 +1259,13 @@ Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 ))
-\doclicense@hsize=\skip82
+\doclicense@hsize=\skip83
 
 (/usr/share/texlive/texmf-dist/tex/latex/doclicense/doclicense-brazilian.ldf
 File: doclicense-brazilian.ldf 
 ))
-\c@tcb@cnt@theoremb=\count388
-\c@theorem=\count389
+\c@tcb@cnt@theoremb=\count400
+\c@theorem=\count401
 \@indexfile=\write5
 \openout5 = `calculo3-notas-de-aula.idx'.
 
@@ -1019,13 +1278,13 @@ Package: import 2020/04/01  v 6.2
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
-\csq@reset=\count390
-\csq@gtype=\count391
-\csq@glevel=\count392
-\csq@qlevel=\count393
-\csq@maxlvl=\count394
-\csq@tshold=\count395
-\csq@ltx@everypar=\toks63
+\csq@reset=\count402
+\csq@gtype=\count403
+\csq@glevel=\count404
+\csq@qlevel=\count405
+\csq@maxlvl=\count406
+\csq@tshold=\count407
+\csq@ltx@everypar=\toks66
 
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
@@ -1036,15 +1295,11 @@ Package csquotes Info: ... configuration file loaded successfully.
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count396
-)
 (./calculo3-notas-de-aula.aux
 Package babel Info: 'brazil' activates 'portuges' shorthands.
 (babel)             Reported on input line 8.
- (./aulas/introducao.aux)
-(./aulas/retas-planos.aux) (./aulas/quadricas.aux))
+ (./aulas/introducao.aux) (./aulas/quadricas.aux)
+(./aulas/polares.aux))
 \openout1 = `calculo3-notas-de-aula.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -1066,25 +1321,25 @@ LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 Package hyperref Info: Link coloring ON on input line 8.
-
-(./calculo3-notas-de-aula.out) (./calculo3-notas-de-aula.out)
+ (./calculo3-notas-de-aula.out)
+(./calculo3-notas-de-aula.out)
 \@outlinefile=\write6
 \openout6 = `calculo3-notas-de-aula.out'.
 
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count397
-\scratchdimen=\dimen316
-\scratchbox=\box132
-\nofMPsegments=\count398
-\nofMParguments=\count399
-\everyMPshowfont=\toks64
-\MPscratchCnt=\count400
-\MPscratchDim=\dimen317
-\MPnumerator=\count401
-\makeMPintoPDFobject=\count402
-\everyMPtoPDFconversion=\toks65
+\scratchcounter=\count408
+\scratchdimen=\dimen351
+\scratchbox=\box142
+\nofMPsegments=\count409
+\nofMParguments=\count410
+\everyMPshowfont=\toks67
+\MPscratchCnt=\count411
+\MPscratchDim=\dimen352
+\MPnumerator=\count412
+\makeMPintoPDFobject=\count413
+\everyMPtoPDFconversion=\toks68
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1128,7 +1383,7 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<brasao-cor.png, id=35, 607.26875pt x 683.55376pt>
+<brasao-cor.png, id=55, 607.26875pt x 683.55376pt>
 File: brasao-cor.png Graphic file (type png)
 <use brasao-cor.png>
 Package pdftex.def Info: brasao-cor.png  used on input line 12.
@@ -1154,7 +1409,7 @@ LaTeX Font Info:    Trying to load font information for U+stmry on input line 3
 5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
-<doclicense-CC-by-nc-88x31.pdf, id=49, 90.3375pt x 31.61812pt>
+<doclicense-CC-by-nc-88x31.pdf, id=69, 90.3375pt x 31.61812pt>
 File: doclicense-CC-by-nc-88x31.pdf Graphic file (type pdf)
 <use doclicense-CC-by-nc-88x31.pdf>
 Package pdftex.def Info: doclicense-CC-by-nc-88x31.pdf  used on input line 37.
@@ -1176,13 +1431,13 @@ x31.pdf>] (./calculo3-notas-de-aula.toc)
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less.
 (fancyhdr)                Please consider using the `twoside' option on input l
-ine 60.
+ine 54.
 
 
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less.
 (fancyhdr)                Please consider using the `twoside' option on input l
-ine 61.
+ine 55.
 
 [2
 
@@ -1191,13 +1446,13 @@ ine 61.
 
  (./aulas/introducao.tex
 Cap\'{\i }tulo 1.
-<figuras/introducao/curvas-polares1.png, id=72, 633.11531pt x 329.73187pt>
+<figuras/introducao/curvas-polares1.png, id=97, 633.11531pt x 329.73187pt>
 File: figuras/introducao/curvas-polares1.png Graphic file (type png)
 <use figuras/introducao/curvas-polares1.png>
 Package pdftex.def Info: figuras/introducao/curvas-polares1.png  used on input 
 line 12.
 (pdftex.def)             Requested size: 379.87212pt x 197.84064pt.
-<figuras/introducao/cardioide-micro.png, id=73, 690.32906pt x 685.8122pt>
+<figuras/introducao/cardioide-micro.png, id=98, 690.32906pt x 685.8122pt>
 File: figuras/introducao/cardioide-micro.png Graphic file (type png)
 <use figuras/introducao/cardioide-micro.png>
 Package pdftex.def Info: figuras/introducao/cardioide-micro.png  used on input 
@@ -1208,7 +1463,7 @@ line 20.
 
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} <./figuras/introduc
 ao/curvas-polares1.png (PNG copy)>]
-<figuras/introducao/dna.png, id=80, 94.10156pt x 158.09062pt>
+<figuras/introducao/dna.png, id=105, 94.10156pt x 158.09062pt>
 File: figuras/introducao/dna.png Graphic file (type png)
 <use figuras/introducao/dna.png>
 Package pdftex.def Info: figuras/introducao/dna.png  used on input line 34.
@@ -1229,7 +1484,7 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
 
 [4 <./figuras/introducao/cardioide-micro.png> <./figuras/introducao/dna.png>]
-<figuras/introducao/curvatura.png, id=87, 157.33781pt x 130.23656pt>
+<figuras/introducao/curvatura.png, id=112, 157.33781pt x 130.23656pt>
 File: figuras/introducao/curvatura.png Graphic file (type png)
 <use figuras/introducao/curvatura.png>
 Package pdftex.def Info: figuras/introducao/curvatura.png  used on input line 5
@@ -1244,12 +1499,12 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
 
 [5 <./figuras/introducao/curvatura.png (PNG copy)>]
-<figuras/nivel2.png, id=96, 249.93375pt x 261.22594pt>
+<figuras/nivel2.png, id=121, 249.93375pt x 261.22594pt>
 File: figuras/nivel2.png Graphic file (type png)
 <use figuras/nivel2.png>
 Package pdftex.def Info: figuras/nivel2.png  used on input line 67.
 (pdftex.def)             Requested size: 249.93314pt x 261.22528pt.
-<figuras/nivel3.png, id=97, 802.49812pt x 487.8225pt>
+<figuras/nivel3.png, id=122, 802.49812pt x 487.8225pt>
 File: figuras/nivel3.png Graphic file (type png)
 <use figuras/nivel3.png>
 Package pdftex.def Info: figuras/nivel3.png  used on input line 72.
@@ -1263,7 +1518,7 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
 
 [6 <./figuras/nivel2.png (PNG copy)> <./figuras/nivel3.png (PNG copy)>]
-<figuras/introducao/cobb-res.png, id=103, 616.55344pt x 429.10312pt>
+<figuras/introducao/cobb-res.png, id=128, 616.55344pt x 429.10312pt>
 File: figuras/introducao/cobb-res.png Graphic file (type png)
 <use figuras/introducao/cobb-res.png>
 Package pdftex.def Info: figuras/introducao/cobb-res.png  used on input line 94
@@ -1278,12 +1533,9 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
 
 [7 <./figuras/introducao/cobb-res.png>]
-\openout2 = `aulas/retas-planos.aux'.
-
- (./aulas/retas-planos.tex
 Cap\'{\i }tulo 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
+(./aulas/retas-planos.tex
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
@@ -1291,8 +1543,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
 
 
-
 ]
+Package babel Info: 'brazil' activates 'portuges' shorthands.
+(babel)             Reported on input line 54.
+
 
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
 (fancyhdr)                Make it at least 17.0pt, for example:
@@ -1301,10 +1555,10 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
 
 [9]
-<figuras/normal-vector.png, id=122, 226.446pt x 187.902pt>
+<figuras/normal-vector.png, id=147, 226.446pt x 187.902pt>
 File: figuras/normal-vector.png Graphic file (type png)
 <use figuras/normal-vector.png>
-Package pdftex.def Info: figuras/normal-vector.png  used on input line 64.
+Package pdftex.def Info: figuras/normal-vector.png  used on input line 63.
 (pdftex.def)             Requested size: 203.7995pt x 169.11023pt.
 
 
@@ -1326,10 +1580,10 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 \openout2 = `aulas/quadricas.aux'.
 
  (./aulas/quadricas.tex
-<figuras/cilindro-ex1.png, id=140, 163.0893pt x 150.8034pt>
+<figuras/cilindro-ex1.png, id=165, 163.0893pt x 150.8034pt>
 File: figuras/cilindro-ex1.png Graphic file (type png)
 <use figuras/cilindro-ex1.png>
-Package pdftex.def Info: figuras/cilindro-ex1.png  used on input line 10.
+Package pdftex.def Info: figuras/cilindro-ex1.png  used on input line 13.
 (pdftex.def)             Requested size: 163.08888pt x 150.80302pt.
 
 
@@ -1341,32 +1595,30 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 
 [12
 
-
-
  <./figuras/cilindro-ex1.png>]
-<figuras/quadricas/parab-hip.png, id=151, 997.7275pt x 953.5625pt>
+<figuras/quadricas/parab-hip.png, id=177, 997.7275pt x 953.5625pt>
 File: figuras/quadricas/parab-hip.png Graphic file (type png)
 <use figuras/quadricas/parab-hip.png>
-Package pdftex.def Info: figuras/quadricas/parab-hip.png  used on input line 35
+Package pdftex.def Info: figuras/quadricas/parab-hip.png  used on input line 38
 .
 (pdftex.def)             Requested size: 129.70912pt x 123.96747pt.
-<figuras/quadricas/elipsoide.png, id=152, 190.7928pt x 132.9768pt>
+<figuras/quadricas/elipsoide.png, id=178, 190.7928pt x 132.9768pt>
 File: figuras/quadricas/elipsoide.png Graphic file (type png)
 <use figuras/quadricas/elipsoide.png>
-Package pdftex.def Info: figuras/quadricas/elipsoide.png  used on input line 38
+Package pdftex.def Info: figuras/quadricas/elipsoide.png  used on input line 41
 .
 (pdftex.def)             Requested size: 152.63443pt x 106.38158pt.
-<figuras/quadricas/elipsoide-padrao.png, id=153, 435.87843pt x 316.18124pt>
+<figuras/quadricas/elipsoide-padrao.png, id=179, 435.87843pt x 316.18124pt>
 File: figuras/quadricas/elipsoide-padrao.png Graphic file (type png)
 <use figuras/quadricas/elipsoide-padrao.png>
 Package pdftex.def Info: figuras/quadricas/elipsoide-padrao.png  used on input 
-line 50.
+line 53.
 (pdftex.def)             Requested size: 217.93867pt x 158.09023pt.
-<figuras/quadricas/hiperboloide1-padrao.png, id=154, 295.1025pt x 453.94594pt>
+<figuras/quadricas/hiperboloide1-padrao.png, id=180, 295.1025pt x 453.94594pt>
 File: figuras/quadricas/hiperboloide1-padrao.png Graphic file (type png)
 <use figuras/quadricas/hiperboloide1-padrao.png>
 Package pdftex.def Info: figuras/quadricas/hiperboloide1-padrao.png  used on in
-put line 60.
+put line 63.
 (pdftex.def)             Requested size: 147.55087pt x 226.97241pt.
 
 
@@ -1378,18 +1630,18 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 
 [13 <./figuras/quadricas/parab-hip.png> <./figuras/quadricas/elipsoide.png> <./
 figuras/quadricas/elipsoide-padrao.png (PNG copy)>]
-<figuras/quadricas/hiperboloide2-padrao.png, id=162, 273.27094pt x 496.10344pt>
+<figuras/quadricas/hiperboloide2-padrao.png, id=188, 273.27094pt x 496.10344pt>
 
 File: figuras/quadricas/hiperboloide2-padrao.png Graphic file (type png)
 <use figuras/quadricas/hiperboloide2-padrao.png>
 Package pdftex.def Info: figuras/quadricas/hiperboloide2-padrao.png  used on in
-put line 69.
+put line 72.
 (pdftex.def)             Requested size: 136.63512pt x 248.0511pt.
-<figuras/quadricas/cone-padrao.png, id=163, 255.20343pt x 432.86719pt>
+<figuras/quadricas/cone-padrao.png, id=189, 255.20343pt x 432.86719pt>
 File: figuras/quadricas/cone-padrao.png Graphic file (type png)
 <use figuras/quadricas/cone-padrao.png>
 Package pdftex.def Info: figuras/quadricas/cone-padrao.png  used on input line 
-78.
+81.
 (pdftex.def)             Requested size: 127.6014pt x 216.43306pt.
 
 
@@ -1401,19 +1653,19 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 
 [14 <./figuras/quadricas/hiperboloide1-padrao.png (PNG copy)> <./figuras/quadri
 cas/hiperboloide2-padrao.png (PNG copy)>]
-<figuras/quadricas/paraboloide-padrao.png, id=168, 294.34969pt x 450.18187pt>
+<figuras/quadricas/paraboloide-padrao.png, id=194, 294.34969pt x 450.18187pt>
 File: figuras/quadricas/paraboloide-padrao.png Graphic file (type png)
 <use figuras/quadricas/paraboloide-padrao.png>
 Package pdftex.def Info: figuras/quadricas/paraboloide-padrao.png  used on inpu
-t line 87.
+t line 90.
 (pdftex.def)             Requested size: 147.17447pt x 225.09038pt.
-<figuras/quadricas/paraboloide-hiperbolico-padrao.png, id=169, 526.96875pt x 42
+<figuras/quadricas/paraboloide-hiperbolico-padrao.png, id=195, 526.96875pt x 42
 9.85594pt>
 File: figuras/quadricas/paraboloide-hiperbolico-padrao.png Graphic file (type p
 ng)
 <use figuras/quadricas/paraboloide-hiperbolico-padrao.png>
 Package pdftex.def Info: figuras/quadricas/paraboloide-hiperbolico-padrao.png  
-used on input line 96.
+used on input line 99.
 (pdftex.def)             Requested size: 263.48372pt x 214.92744pt.
 
 
@@ -1433,33 +1685,33 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
 
 [16 <./figuras/quadricas/paraboloide-hiperbolico-padrao.png (PNG copy)>]
-<figuras/quadricas/exerc12-6A.png, id=183, 431.36156pt x 363.60844pt>
+<figuras/quadricas/exerc12-6A.png, id=208, 431.36156pt x 363.60844pt>
 File: figuras/quadricas/exerc12-6A.png Graphic file (type png)
 <use figuras/quadricas/exerc12-6A.png>
 Package pdftex.def Info: figuras/quadricas/exerc12-6A.png  used on input line 1
-65.
+68.
 (pdftex.def)             Requested size: 258.81892pt x 218.16673pt.
 
-Overfull \hbox (7.99535pt too wide) in paragraph at lines 165--166
+Overfull \hbox (7.99535pt too wide) in paragraph at lines 168--169
 [][] 
  []
 
-<figuras/quadricas/exerc12-6B.png, id=184, 455.45157pt x 356.83313pt>
+<figuras/quadricas/exerc12-6B.png, id=209, 455.45157pt x 356.83313pt>
 File: figuras/quadricas/exerc12-6B.png Graphic file (type png)
 <use figuras/quadricas/exerc12-6B.png>
 Package pdftex.def Info: figuras/quadricas/exerc12-6B.png  used on input line 1
-69.
+72.
 (pdftex.def)             Requested size: 273.27304pt x 214.10152pt.
 
-Overfull \hbox (22.44946pt too wide) in paragraph at lines 169--170
+Overfull \hbox (22.44946pt too wide) in paragraph at lines 172--173
 [][] 
  []
 
-<figuras/quadricas/exerc12-6C.png, id=185, 408.77719pt x 328.22626pt>
+<figuras/quadricas/exerc12-6C.png, id=210, 408.77719pt x 328.22626pt>
 File: figuras/quadricas/exerc12-6C.png Graphic file (type png)
 <use figuras/quadricas/exerc12-6C.png>
 Package pdftex.def Info: figuras/quadricas/exerc12-6C.png  used on input line 1
-75.
+78.
 (pdftex.def)             Requested size: 286.14207pt x 229.7568pt.
 
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -1470,11 +1722,11 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 
 [17 <./figuras/quadricas/exerc12-6A.png> <./figuras/quadricas/exerc12-6B.png> <
 ./figuras/quadricas/exerc12-6C.png>]
-<figuras/quadricas/meme-osextosentido.png, id=206, 1407.2575pt x 1126.2075pt>
+<figuras/quadricas/meme-osextosentido.png, id=231, 1407.2575pt x 1126.2075pt>
 File: figuras/quadricas/meme-osextosentido.png Graphic file (type png)
 <use figuras/quadricas/meme-osextosentido.png>
 Package pdftex.def Info: figuras/quadricas/meme-osextosentido.png  used on inpu
-t line 183.
+t line 186.
 (pdftex.def)             Requested size: 422.18051pt x 337.86487pt.
 
 
@@ -1485,17 +1737,17 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
 
 [18 <./figuras/quadricas/meme-osextosentido.png (PNG copy)>]
-<figuras/quadricas/pringles.png, id=212, 662.475pt x 252.945pt>
+<figuras/quadricas/pringles.png, id=237, 662.475pt x 252.945pt>
 File: figuras/quadricas/pringles.png Graphic file (type png)
 <use figuras/quadricas/pringles.png>
-Package pdftex.def Info: figuras/quadricas/pringles.png  used on input line 193
+Package pdftex.def Info: figuras/quadricas/pringles.png  used on input line 196
 .
 (pdftex.def)             Requested size: 331.2367pt x 126.47218pt.
-<figuras/quadricas/aplicacoes.png, id=213, 1072.75781pt x 531.48563pt>
+<figuras/quadricas/aplicacoes.png, id=238, 1072.75781pt x 531.48563pt>
 File: figuras/quadricas/aplicacoes.png Graphic file (type png)
 <use figuras/quadricas/aplicacoes.png>
 Package pdftex.def Info: figuras/quadricas/aplicacoes.png  used on input line 2
-00.
+03.
 (pdftex.def)             Requested size: 536.3776pt x 265.74216pt.
 
 
@@ -1507,27 +1759,27 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 
 [19 <./figuras/quadricas/pringles.png> <./figuras/quadricas/aplicacoes.png (PNG
  copy)>]
-<figuras/quadricas/arquitetura/manantiales.jpg, id=219, 737.75626pt x 491.8375p
+<figuras/quadricas/arquitetura/manantiales.jpg, id=244, 737.75626pt x 491.8375p
 t>
 File: figuras/quadricas/arquitetura/manantiales.jpg Graphic file (type jpg)
 <use figuras/quadricas/arquitetura/manantiales.jpg>
 Package pdftex.def Info: figuras/quadricas/arquitetura/manantiales.jpg  used on
- input line 210.
+ input line 213.
 (pdftex.def)             Requested size: 295.09727pt x 196.7315pt.
-<figuras/quadricas/arquitetura/manantiales_diagrama.jpg, id=220, 803.0pt x 477.
+<figuras/quadricas/arquitetura/manantiales_diagrama.jpg, id=245, 803.0pt x 477.
 785pt>
 File: figuras/quadricas/arquitetura/manantiales_diagrama.jpg Graphic file (type
  jpg)
 <use figuras/quadricas/arquitetura/manantiales_diagrama.jpg>
 Package pdftex.def Info: figuras/quadricas/arquitetura/manantiales_diagrama.jpg
-  used on input line 216.
+  used on input line 219.
 (pdftex.def)             Requested size: 321.1943pt x 191.11061pt.
-<figuras/quadricas/arquitetura/vila-velha.png, id=221, 221.8689pt x 138.5175pt>
+<figuras/quadricas/arquitetura/vila-velha.png, id=246, 221.8689pt x 138.5175pt>
 
 File: figuras/quadricas/arquitetura/vila-velha.png Graphic file (type png)
 <use figuras/quadricas/arquitetura/vila-velha.png>
 Package pdftex.def Info: figuras/quadricas/arquitetura/vila-velha.png  used on 
-input line 225.
+input line 228.
 (pdftex.def)             Requested size: 299.52362pt x 186.999pt.
 )
 
@@ -1537,33 +1789,58 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
 
+[20 <./figuras/quadricas/arquitetura/manantiales.jpg> <./figuras/quadricas/arqu
+itetura/manantiales_diagrama.jpg> <./figuras/quadricas/arquitetura/vila-velha.p
+ng>]
+\openout2 = `aulas/polares.aux'.
+
+ (./aulas/polares.tex)
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{17.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
+
+[21
+
+
+
+]
+Cap\'{\i }tulo 3.
+[22
+
+
+
+]
+Cap\'{\i }tulo 4.
+No file calculo3-notas-de-aula.ind.
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 )
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-utf8.def
 File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
-) [20 <./figuras/quadricas/arquitetura/manantiales.jpg> <./figuras/quadricas/ar
-quitetura/manantiales_diagrama.jpg> <./figuras/quadricas/arquitetura/vila-velha
-.png>]
-No file calculo3-notas-de-aula.ind.
-(./calculo3-notas-de-aula.aux (./aulas/introducao.aux)
-(./aulas/retas-planos.aux) (./aulas/quadricas.aux))
+) [23
+
+]
+(./calculo3-notas-de-aula.aux (./aulas/introducao.aux) (./aulas/quadricas.aux)
+(./aulas/polares.aux))
  ***********
 LaTeX2e <2025-11-01>
-L3 programming layer <2026-01-19>
+L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `calculo3-notas-de-aula.out' has not changed.
 
-(rerunfilecheck)             Checksum: 516A668C9CA3ADD01095C2A9952F8A03;1352.
+(rerunfilecheck)             Checksum: 3164AB6DDE0F7E2CAF100297357CDF42;2120.
  ) 
 Here is how much of TeX's memory you used:
- 32014 strings out of 467533
- 630269 string characters out of 5422138
- 1130053 words of memory out of 5000000
- 60291 multiletter control sequences out of 15000+600000
+ 38272 strings out of 467533
+ 789553 string characters out of 5422138
+ 1285305 words of memory out of 5000000
+ 66314 multiletter control sequences out of 15000+600000
  639831 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 121i,15n,124p,1022b,985s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 121i,15n,124p,1204b,1064s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/ccicons/ccicons.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive
@@ -1578,10 +1855,10 @@ m/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 </usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
-Output written on calculo3-notas-de-aula.pdf (21 pages, 7318959 bytes).
+Output written on calculo3-notas-de-aula.pdf (24 pages, 7328124 bytes).
 PDF statistics:
- 310 PDF objects out of 1000 (max. 8388607)
- 212 compressed objects within 3 object streams
- 62 named destinations out of 1000 (max. 500000)
- 213 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 350 PDF objects out of 1000 (max. 8388607)
+ 249 compressed objects within 3 object streams
+ 72 named destinations out of 1000 (max. 500000)
+ 253 words of extra memory for PDF output out of 10000 (max. 10000000)
 
