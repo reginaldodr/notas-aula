@@ -1,0 +1,94 @@
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[14pt]{extreport}
+
+\input{preambulo}
+
+\usepackage{subfiles} % Deve ser carregado preferencialmente por último
+
+\begin{document}
+\nopagecolor % Garante a transparência
+\begin{titlepage}
+\begin{center}
+\includegraphics[scale=0.15]{brasao-cor.png}~\\
+UNIVERSIDADE FEDERAL FLUMINENSE \\
+DEPARTAMENTO DE CIÊNCIAS DA NATUREZA\\[4cm]
+{\Huge \textbf{Notas de Cálculo III}}\\
+{\Large
+Cálculo Diferencial de Várias Variáveis 
+\\[2cm]
+}
+\textbf{Prof. Reginaldo Demarque}\\
+{Departamento de Ciências da Natureza\\ Universidade Federal Fluminense}
+\vfill
+% Bottom of the page
+{\large Rio das Ostras, 2026}
+
+[Compilado \today, \currenttime] 
+\par
+\end{center}
+\end{titlepage}
+
+
+\null\vfill
+\noindent
+\begin{minipage}{0.8\textwidth}
+Notas de Cálculo III \copyright 2026 by Reginaldo Demarque tem a licença  \doclicenseNameRef \ \ \doclicenseIcon. Para ver uma cópia da licença, visite \url{\doclicenseURL} 
+\end{minipage}
+\doclicenseImage[imagewidth=7em] 
+
+
+\newpage
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%
+%%%%%       PÁGINAS PRÉ-TEXTUAIS
+%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\frontmatter
+\tableofcontents
+%----------------------------------------------------------------------
+%                         ESTILO DA PÁGINA
+%----------------------------------------------------------------------
+
+\pagestyle{fancy}
+\fancyhead[LO]{\slshape \rightmark}
+\fancyhead[RE]{\slshape \leftmark}
+\fancyhead[LE,RO]{\thepage}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\chaptermark}[1]{%
+ \markboth{\chaptername
+\ \thechapter.\ #1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection.\ #1}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%
+%%%% Capitulos da Monografia
+%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%\mainmatter
+\include{aulas/introducao}
+\include{aulas/retas-planos}
+\include{aulas/quadricas}
+
+
+%\appendix
+%\include{apendiceA}
+
+%\backmatter
+%\bibliographystyle{alpha}
+%\bibliography{bibliografia}
+%\addcontentsline{toc}{chapter}{Bibliografia}
+
+\printindex
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
