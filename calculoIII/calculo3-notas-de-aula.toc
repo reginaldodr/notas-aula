@@ -1,0 +1,8 @@
+\babel@toc {brazil}{}\relax 
+\contentsline {chapter}{\numberline {1}Motivação}{3}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Retas, Planos e Superfícies}{8}{chapter.2}%
+\contentsline {section}{Equação Paramétrica de uma Reta}{8}{section*.2}%
+\contentsline {section}{Equação Cartesiana do Plano no Espaço}{10}{section*.3}%
+\contentsline {section}{Superfícies Cilíndricas}{12}{section*.4}%
+\contentsline {section}{Superfícies Quádricas}{13}{section*.5}%
+\contentsline {section}{Eu vejo quádricas...Todo o tempo!}{18}{section*.6}%

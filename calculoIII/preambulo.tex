@@ -126,6 +126,12 @@ lang={brazilian},
 \newcommand{\dm}{d}
 \newcommand{\vt}[1]{\overrightarrow{#1}}
 
+\newcommand{\marcador}[1]{%
+	\phantomsection%
+	\addcontentsline{toc}{section}{#1}%
+	\noindent {\large \textbf{#1}}\par\vspace{1em}%
+}
+
 %-------------- espaços e normas ------------------------
 
 \newcommand{\n}[1]{\|#1\|}
@@ -141,7 +147,7 @@ lang={brazilian},
 \DeclarePairedDelimiterX{\inp}[2]{\langle}{\rangle}{#1, #2}
 
 
-
+%-----------
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
