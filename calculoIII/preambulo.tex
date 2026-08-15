@@ -1,54 +1,50 @@
-\usepackage{fancyhdr}
-\usepackage{makeidx} % para criar indice remissivo
-\usepackage[utf8]{inputenc}
-\usepackage[brazil]{babel}
-\usepackage{hyperref}
-\hypersetup{
-	colorlinks   = true, %Colours links instead of ugly boxes
-	urlcolor     = cyan, %Colour for external hyperlinks
-	linkcolor    = red, %Colour of internal links
-	citecolor   = blue %Colour of citations
-}
-\usepackage[many]{tcolorbox}
-\tcbuselibrary{theorems}
-
-%\usepackage[notcite,notref]{showkeys}
-\usepackage{amsfonts}
-\usepackage{mathtools}
-\usepackage{amsthm,amssymb}
+% 1. Cores e pacotes gráficos (devem vir PRIMEIRO)
+\usepackage[usenames,dvipsnames,svgnames]{xcolor}
 \usepackage{graphicx}
 \usepackage{epsfig}
-\usepackage[usenames,dvipsnames,svgnames]{xcolor}
-%\usepackage{color}
-\usepackage{enumerate}
-\usepackage{wrapfig}
-
-\usepackage{xspace,setspace}
-\usepackage[rm]{titlesec}
-\usepackage{fancybox}
-\usepackage[hmargin=1cm,vmargin=1.5cm]{geometry}
-
 \usepackage{pgf,tikz}
-\usetikzlibrary{calc}
-
-\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{calc,decorations.pathreplacing}
 \usepackage{tkz-euclide}
-\usepackage{tabu}
 
+% 2. Linguagem e codificação
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
 
-\usepackage{tcolorbox}
+% 3. PythonTeX
+\usepackage{pythontex}
+
+% 4. Matemática e fontes
+\usepackage{amsfonts,mathtools,amsthm,amssymb}
 \usepackage{stmaryrd}
 
-
+% 5. Layout, tabelas e formatação
+\usepackage{fancyhdr}
+\usepackage{makeidx}
+\usepackage{enumerate}
+\usepackage{wrapfig}
+\usepackage{xspace,setspace}
+\usepackage[rm]{titlesec}
+\usepackage[hmargin=1cm,vmargin=1.5cm]{geometry}
+\usepackage{tabu}
 \usepackage{multicol}
 \usepackage{ccicons}
 \usepackage{makecell}
-
 \usepackage[nodayofweek]{datetime}
 
-\renewcommand{\baselinestretch}{1.2}
-\allowdisplaybreaks
+% 6. Caixas (tcolorbox)
+\usepackage[many]{tcolorbox}
+\tcbuselibrary{theorems}
 
+% 7. Hyperref (DEVE vir por último entre os pacotes de formatação)
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks = true,
+    urlcolor   = cyan,
+    linkcolor  = red,
+    citecolor  = blue
+}
+
+% 8. Licença
 \usepackage[
 type={CC},
 modifier={by-nc},
@@ -56,57 +52,50 @@ version={4.0},
 lang={brazilian},
 ]{doclicense}
 
+% Configurações gerais
+\renewcommand{\baselinestretch}{1.2}
+\allowdisplaybreaks
+\makeindex
+%\nonstopmode
 
-% \setlength{\topmargin}{0in} \setlength{\headsep}{1cm}
-% \setlength{\textwidth}{6.5in} \setlength{\textheight}{8.5in}
-% \setlength{\oddsidemargin}{0cm} \setlength{\evensidemargin}{0cm}
-% \setlength{\footskip}{1.cm}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\nonstopmode
-
-
-%----------------- theorem box --------------------------
+%----------------- Caixa de Teoremas (tcolorbox) --------------------------
 \newtcbtheorem[number within=chapter]{theoremb}{Teorema}%
 {
-	enhanced,                  % ATIVA OS EFEITOS AVANÇADOS (Obrigatório para sombras)
-	drop fuzzy shadow,         % ADICIONA A SOMBRA SUAVE
-	colback=blue!5!white,
-	colframe=blue!50!black,
-	fonttitle=\bfseries,       % Fonte do título em negrito
-	coltitle=white,            % Cor do texto do título
-	description delimiters parenthesis, % Coloca a descrição extra entre parênteses
-	separator sign none        % Remove os dois pontos padrão após o número
+    enhanced,
+    drop fuzzy shadow,
+    colback=blue!5!white,
+    colframe=blue!50!black,
+    fonttitle=\bfseries,
+    coltitle=white,
+    description delimiters parenthesis,
+    separator sign none
 }{teo}
 
 \newtcbtheorem[use counter from=theoremb]{exeb}{Exemplo}%
 {
-	enhanced,                  % ATIVA OS EFEITOS AVANÇADOS (Obrigatório para sombras)
-	drop fuzzy shadow,         % ADICIONA A SOMBRA SUAVE
-	colback=green!5!white,
-	colframe=green!50!black,
-	fonttitle=\bfseries,       % Fonte do título em negrito
-	coltitle=white,            % Cor do texto do título
-	description delimiters parenthesis, % Coloca a descrição extra entre parênteses
-	separator sign none        % Remove os dois pontos padrão após o número
+    enhanced,
+    drop fuzzy shadow,
+    colback=green!5!white,
+    colframe=green!50!black,
+    fonttitle=\bfseries,
+    coltitle=white,
+    description delimiters parenthesis,
+    separator sign none
 }{exe}
 
 \newtcbtheorem[use counter from=theoremb]{exerb}{Exercício}%
 {
-	enhanced,                  % ATIVA OS EFEITOS AVANÇADOS (Obrigatório para sombras)
-	drop fuzzy shadow,         % ADICIONA A SOMBRA SUAVE
-	colback=red!5!white,
-	colframe=red!50!black,
-	fonttitle=\bfseries,       % Fonte do título em negrito
-	coltitle=white,            % Cor do texto do título
-	description delimiters parenthesis, % Coloca a descrição extra entre parênteses
-	separator sign none        % Remove os dois pontos padrão após o número
+    enhanced,
+    drop fuzzy shadow,
+    colback=red!5!white,
+    colframe=red!50!black,
+    fonttitle=\bfseries,
+    coltitle=white,
+    description delimiters parenthesis,
+    separator sign none
 }{exer}
 
-
-%------------------------------------------------------
-
+%----------------- Teoremas Padrão --------------------------
 \newtheorem{theorem}{Teorema}[chapter]
 \newtheorem{lemma}[theorem]{Lema}
 \newtheorem{corollary}[theorem]{Corolário}
@@ -123,11 +112,10 @@ lang={brazilian},
 \numberwithin{section}{chapter}
 \numberwithin{equation}{chapter}
 
-
-%%%%%%%%%%%%%%%%% Novos Comando  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\R}{\mathbb{R}}				      % conjunto dos reais
+%----------------- Novos Comandos --------------------------
+\newcommand{\R}{\mathbb{R}}
 \newcommand{\N}{\mathbb{N}}
-\newcommand{\C}{\mathbb{C}}	
+\newcommand{\C}{\mathbb{C}}
 \newcommand{\dt}[1]{{\color{blue}\textbf{#1}}}
 \newcommand{\ep}{\varepsilon}
 \newcommand{\nl}[1]{\|#1\|_{\mathcal{L}(X)}}
@@ -135,60 +123,65 @@ lang={brazilian},
 \newcommand{\vt}[1]{\overrightarrow{#1}}
 
 \newcommand{\marcador}[2]{%
-	\phantomsection%
-	\addcontentsline{toc}{#1}{#2}%
-	\noindent {\large \textbf{#2}}\par\vspace{1em}%
+    \phantomsection%
+    \addcontentsline{toc}{#1}{#2}%
+    \noindent {\large \textbf{#2}}\par\vspace{1em}%
 }
-
-%-------------- espaços e normas ------------------------
 
 \newcommand{\n}[1]{\|#1\|}
 
-
-%------------ Operadores -------------------------
 \DeclareMathOperator{\rank}{\operatorname{rank}}
 \DeclareMathOperator{\im}{Im}
 \DeclareMathOperator{\id}{I}
-
-%------------  Pares de delimitadores ----------------
-
 \DeclarePairedDelimiterX{\inp}[2]{\langle}{\rangle}{#1, #2}
 
 
-%-----------
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%----------------------  Caixa para Instruções  --------------------------------
-
-
-%---------------------------------------------------------------------------
-
-
-%-----------------------------------------------------------------------
-%                         ESTILO DO INÍCIO DO CAPÍTULO
-%-----------------------------------------------------------------------
-\font\largefont= pzcmi scaled 3500 \font\numberfont= pzcmi scaled
-3000
-\titleformat{\chapter}[display]
-{\normalfont\Large % roman
+%----------------- Caixa de Sombra (Substituto do \shadowbox) --------------------------
+\newtcbox{\myshadowbox}{
+  enhanced,
+  sharp corners,
+  colback=white,
+  colframe=black,
+  boxrule=0.5pt,
+  shadow={2pt}{-2pt}{0pt}{black}, % Reproduz a sombra clássica do \shadowbox
+  boxsep=0pt,
+  left=4pt, right=4pt, top=4pt, bottom=4pt,
+  nobeforeafter,
+  tcbox raise base
 }
-{ \filright
-	\rule[32pt]{.7\linewidth}{4pt}
-	\hspace{-8pt}
-	\shadowbox{
-		\begin{minipage}{.15\linewidth}
-			\begin{center}
-				\textsl{\large \chaptertitlename}\\
-				\vspace{1ex}
-				{\numberfont \thechapter}\\
-				\vspace{1ex}
-			\end{center}
-\end{minipage}}}
-{-10pt}
-{\filcenter  \sl  \Huge }
-[\vspace{-1cm}\singlespacing\hfill\rule{.8\textwidth}{0.5pt}\\
-\vskip-2.8ex\hfill\rule{.7\textwidth}{4pt}\onehalfspacing]
-\titlespacing{\chapter}{0pt}{*4}{*1}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\makeindex
+
+%----------------- Estilo do Capítulo --------------------------
+\font\largefont= pzcmi scaled 3500
+\font\numberfont= pzcmi scaled 3000
+
+\titleformat{\chapter}[display]
+  {\normalfont\Large}
+  {\filright
+    \rule[32pt]{.7\linewidth}{4pt}%
+    \hspace{2pt}%
+\raisebox{1cm}{	\myshadowbox{%
+	  \begin{minipage}{.15\linewidth}
+        \begin{center}
+          \textsl{\large \chaptertitlename}\\[1ex]
+          {\numberfont \thechapter}\\[1ex]
+        \end{center}
+      \end{minipage}%
+    }}
+  }
+  {-10pt}
+  {\filcenter\slshape\Huge}
+  [\vspace{-2cm}\singlespacing\hfill\rule{.8\textwidth}{0.5pt}\\
+   \vskip-2.8ex\hfill\rule{.7\textwidth}{4pt}\onehalfspacing]
+
+\titlespacing{\chapter}{0pt}{*3}{*1}
+
+
+
+
+\newtcbox{\destaque}{
+enhanced,
+    drop fuzzy shadow,
+    colback=blue!5!white,
+    colframe=blue!50!black
+}
+

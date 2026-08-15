@@ -9,5 +9,7 @@
 \contentsline {subsection}{Superfícies Quádricas}{13}{section*.5}%
 \contentsline {subsection}{Eu vejo quádricas...Todo o tempo!}{18}{section*.6}%
 \contentsline {section}{\numberline {2.3}Coordenadas Polares}{21}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Funções Vetoriais}{22}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Funções de Várias Variáveis}{23}{chapter.4}%
+\contentsline {subsection}{Relação entre coordenadas cartesianas e polares}{23}{section*.7}%
+\contentsline {subsection}{Plotando a Cardioide no Python}{25}{section*.8}%
+\contentsline {chapter}{\numberline {3}Funções Vetoriais}{26}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Funções de Várias Variáveis}{27}{chapter.4}%

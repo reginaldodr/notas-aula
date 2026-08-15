@@ -1,0 +1,61 @@
+=>PYTHONTEX#py#default#defaultverb#0#verbatim####polares.tex#102#
+import numpy as np
+import matplotlib.pyplot as plt
+
+ax = plt.axes(projection='polar')
+angulos=list(range(0, 360, 15))
+raios = [1, 2, 3, 4]
+
+# plota os pontos
+plt.polar(5*np.pi/4,1, 'g.')
+plt.polar(3*np.pi,2, 'b.')
+plt.polar(-2*np.pi/3,2, 'k.')
+plt.polar(3*np.pi/4,3, 'r.')
+plt.polar(3*np.pi/4+np.pi,3, 'r.')
+
+ax.set_thetagrids(angulos)
+ax.set_rgrids(raios)
+plt.show()
+=>PYTHONTEX#py#default#defaultverb#1#verbatim####polares.tex#169#
+import matplotlib.pyplot as plt
+import numpy as np
+
+ax = plt.axes(projection='polar')
+
+#plotar o gráfico
+theta= np.linspace(0, 2*np.pi, 100)
+r=1+np.cos(theta)
+plt.polar(theta, r)
+
+#construir a malha
+raios = [0.5,1,1.5,2,2.5]
+angulos=list(range(0, 360, 15))
+ax.set_thetagrids(angulos)
+ax.set_rgrids(raios)
+
+plt.show()
+=>PYTHONTEX:SETTINGS#
+version=0.18
+outputdir=pythontex-files-calculo3-notas-de-aula
+workingdir=.
+workingdirset=false
+gobble=none
+rerun=default
+hashdependencies=default
+makestderr=false
+stderrfilename=full
+keeptemps=none
+pyfuture=default
+pyconfuture=none
+pygments=true
+pygglobal=:GLOBAL||
+fvextfile=-1
+pyconbanner=none
+pyconfilename=stdin
+depythontex=false
+pygfamily=py|python3|
+pygfamily=pycon|pycon|
+pygfamily=sympy|python3|
+pygfamily=sympycon|pycon|
+pygfamily=pylab|python3|
+pygfamily=pylabcon|pycon|

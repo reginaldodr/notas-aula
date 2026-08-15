@@ -3,10 +3,9 @@
 
 \input{preambulo}
 
-\usepackage{subfiles} % Deve ser carregado preferencialmente por último
+%\usepackage{subfiles} % Deve ser carregado preferencialmente por último
 
 \begin{document}
-\nopagecolor % Garante a transparência
 \begin{titlepage}
 \begin{center}
 \includegraphics[scale=0.15]{brasao-cor.png}~\\
@@ -14,7 +13,7 @@ UNIVERSIDADE FEDERAL FLUMINENSE \\
 DEPARTAMENTO DE CIÊNCIAS DA NATUREZA\\[4cm]
 {\Huge \textbf{Notas de Cálculo III}}\\
 {\Large
-Cálculo Diferencial de Várias Variáveis 
+Cálculo Diferencial de Várias Variáveis
 \\[2cm]
 }
 \textbf{Prof. Reginaldo Demarque}\\
@@ -23,7 +22,7 @@ Cálculo Diferencial de Várias Variáveis
 % Bottom of the page
 {\large Rio das Ostras, 2026}
 
-[Compilado \today, \currenttime] 
+[Compilado \today, \currenttime]
 \par
 \end{center}
 \end{titlepage}
@@ -32,9 +31,9 @@ Cálculo Diferencial de Várias Variáveis
 \null\vfill
 \noindent
 \begin{minipage}{0.8\textwidth}
-Notas de Cálculo III \copyright 2026 by Reginaldo Demarque tem a licença  \doclicenseNameRef \ \ \doclicenseIcon. Para ver uma cópia da licença, visite \url{\doclicenseURL} 
+Notas de Cálculo III \copyright 2026 by Reginaldo Demarque tem a licença  \doclicenseNameRef \ \ \doclicenseIcon. Para ver uma cópia da licença, visite \url{\doclicenseURL}
 \end{minipage}
-\doclicenseImage[imagewidth=7em] 
+\doclicenseImage[imagewidth=7em]
 
 
 \newpage
@@ -68,12 +67,16 @@ Notas de Cálculo III \copyright 2026 by Reginaldo Demarque tem a licença  \doc
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
+
 %\mainmatter
 \include{aulas/introducao}
 \chapter{Elementos de Geometria Analítica}
 \input{aulas/retas-planos}
 \include{aulas/quadricas}
-\include{aulas/polares}
+\input{aulas/polares}
+
+
+
 \chapter{Funções Vetoriais}
 \chapter{Funções de Várias Variáveis}
 
