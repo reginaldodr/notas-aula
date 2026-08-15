@@ -43,6 +43,7 @@
     linkcolor  = red,
     citecolor  = blue
 }
+\usepackage{bookmark}
 
 % 8. Licença
 \usepackage[
@@ -58,8 +59,20 @@ lang={brazilian},
 \makeindex
 %\nonstopmode
 
-%----------------- Caixa de Teoremas (tcolorbox) --------------------------
+%----------- Caixa de Teoremas e outras caixas (tcolorbox) ---------
 \newtcbtheorem[number within=chapter]{theoremb}{Teorema}%
+{
+    enhanced,
+    drop fuzzy shadow,
+    colback=blue!5!white,
+    colframe=blue!50!black,
+    fonttitle=\bfseries,
+    coltitle=white,
+    description delimiters parenthesis,
+    separator sign none
+}{teo}
+
+\newtcbtheorem[use counter from=theoremb]{definb}{Definição}%
 {
     enhanced,
     drop fuzzy shadow,
@@ -95,6 +108,37 @@ lang={brazilian},
     separator sign none
 }{exer}
 
+\newtcbtheorem[number within=chapter]{casab}{Para Casa}%
+{
+    enhanced,
+    drop fuzzy shadow,
+    colback=red!5!white,
+    colframe=red!50!black,
+    fonttitle=\bfseries,
+    coltitle=white,
+    description delimiters parenthesis,
+    separator sign none,
+	bookmark*={level=1}{Para Casa \thetcbcounter},
+}{casa}
+
+
+\newtcbox{\destaque}{
+enhanced,
+    drop fuzzy shadow,
+    colback=blue!5!white,
+    colframe=blue!50!black
+}
+
+\newtcolorbox{caixaazul}[1]{
+    enhanced,
+    drop fuzzy shadow,
+    colback=blue!5!white,
+    colframe=blue!50!black,
+    fonttitle=\bfseries,
+    coltitle=white,
+    title={#1}
+}
+
 %----------------- Teoremas Padrão --------------------------
 \newtheorem{theorem}{Teorema}[chapter]
 \newtheorem{lemma}[theorem]{Lema}
@@ -122,11 +166,14 @@ lang={brazilian},
 \newcommand{\dm}{d}
 \newcommand{\vt}[1]{\overrightarrow{#1}}
 
+%------------- marcadores ------------------------
 \newcommand{\marcador}[2]{%
     \phantomsection%
     \addcontentsline{toc}{#1}{#2}%
     \noindent {\large \textbf{#2}}\par\vspace{1em}%
 }
+
+%-----------------------------------------------
 
 \newcommand{\n}[1]{\|#1\|}
 
@@ -178,10 +225,10 @@ lang={brazilian},
 
 
 
-\newtcbox{\destaque}{
-enhanced,
-    drop fuzzy shadow,
-    colback=blue!5!white,
-    colframe=blue!50!black
-}
 
+\newcommand\blfootnote[1]{
+    \begingroup
+    \renewcommand\thefootnote{}\footnote{#1}
+    \addtocounter{footnote}{-1}
+    \endgroup
+}
