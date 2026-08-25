@@ -27,10 +27,10 @@ Sejam $\vec{r}(t)=(f_1(t),f_2(t),\ldots,f_n(t))$ uma função vetorial com domí
 desde que o limite das funções componentes existam.
 \end{definb}
 
-\begin{exerb}{}{}
+\begin{exeb}{}{}
 Determine $\lim\limits_{t\to 0}\vec{r}(t)$, onde $\vec{r}(t)=(1+t^3, te^{-t})$.
-\end{exerb}
-\vspace{5cm}
+\end{exeb}
+\vfill
 
 
 \begin{definb}{}{}
@@ -198,3 +198,98 @@ Muitas curvas no espaço, podem ser parametrizadas via interseção de duas supe
 %\item  da esfera $x^2+y^2+z^2=1$ com o cilindro $y=x^2$.
 \end{enumerate}
 \end{exeb}
+
+\begin{casab}{}{}
+\begin{enumerate}
+\item Determine uma parametrização para o círculo de centro em $(1,2)$ e raio $3$.
+\item Determine uma parametrização para o segmento de reta ligando o ponto $P=(1,3,-2)$ ao ponto $Q=(2,-1,3)$.
+
+\item Calcule $\|\vec{r}(t)\|$, onde $\vec{r}(t)=(\cos t,\sin t, t)$, $t\in \R$.
+
+\item Mostre que a curva $\vec{r}(t)=(t\cos t,t\sin t,t)$ está contida no cone $z^2=x^2+y^2$ e use esse fato para esboçar a curva.
+
+\item Determine uma equação vetorial que represente a curva obtida pela interseção dos dois parabolóides: $z=2x^2+\frac{y^2}{2}$ e $z=4-2x^2-\frac{3y^2}{2}$.
+\end{enumerate}
+\end{casab}
+
+\newpage
+
+\section{Derivadas}
+
+%\begin{tikzpicture}[remember picture, overlay]
+%  \foreach \x in {0,0.5,...,21} { % horizontal (ajuste o passo para mudar densidade)
+%    \foreach \y in {0,0.5,...,27} { % vertical (A4: ~29.7cm)
+%      \fill[gray] (current page.south west)++(\x cm,\y cm) circle (0.5pt);
+%    }
+%  }
+%\end{tikzpicture}
+
+\begin{definb}{}{}
+A {\color{blue}derivada} de uma função vetorial $\vec{r}$ é definida por:
+\[\frac{d\vec{r}}{dt}=\vec{r}\,'(t)=\lim\limits_{h\to 0}\frac{\vec{r}(t+h)-r(t)}{h},\]
+se esse limite existir.
+\end{definb}
+\vfill
+
+\begin{caixaazul}{Interpretação Geométrica}
+O vetor $\vec{r}\,'(t)$ é um {\color{blue}vetor tangente} à curva parametrizada por $\vec{r}$ no ponto $P=\vec{r}(t)$.
+\end{caixaazul}
+
+\newpage
+\begin{propb}{}{}
+Se $\vec{r}(t)=\left(f_1(t),\ldots,f_n(t)\right)$, onde $f_i$, com $i=1,\ldots,n$, são funções deriváveis, então
+\[\vec{r}\,'(t)=\left(f_1'(t),\ldots,f_n'(t)\right)\]
+\end{propb}
+
+\begin{exeb}{}{}
+Encontre o vetor tangente unitário no ponto $t=0$ da curva
+\[\vec{r}(t)=\left(1+t^3,te^{-t},\sin(2t)\right).\]
+\end{exeb}
+
+
+\newpage
+\marcador{subsection}{Regras de Derivação}
+
+\begin{propb}{}{}
+Sejam $\vec{u}$ e $\vec{v}$ funções vetoriais diferenciáveis, $c$ uma constante e $f$ uma função real. Então,
+\begin{enumerate}
+\item $\frac{d}{dt}\left(\vec{u}(t)+\vec{v}(t)\right)= \vec{u}\,'(t)+\vec{v}\,'(t)$
+\item $\frac{d}{dt}\left(c\vec{u}(t)\right)= c\vec{u}\,'(t)$
+\item $\frac{d}{dt}\left(f(t)\vec{u}(t)\right)= f'(t)\vec{u}(t)+f(t)\vec{u}\,'(t)$
+\item $\frac{d}{dt}\left(\vec{u}(t)\cdot \vec{v}(t)\right)= \vec{u}\,'(t)\cdot\vec{v}(t)+\vec{u}(t)\cdot\vec{v}\,'(t)$
+\item $\frac{d}{dt}\left(\vec{u}(t)\times \vec{v}(t)\right)= \vec{u}\,'(t)\times\vec{v}(t)+\vec{u}(t)\times\vec{v}\,'(t)$
+\item $\frac{d}{dt}\left(\vec{u}(f(t))\right)= f'(t)\vec{u}\,'(f(t))$ (regra da cadeia)
+\end{enumerate}
+\end{propb}
+
+\begin{exeb}{}{}
+Mostre que se $\|\vec{r}(t)\|=c$ para todo $t\in I$, então $\vec{r}\,'(t)$ é ortogonal a $\vec{r}(t)$ para todo $t\in I$.
+\end{exeb}
+
+\begin{center}
+\includegraphics[scale=0.4]{figuras/vetor-const.png}
+\end{center}
+\newpage
+
+
+
+\marcador{subsection}{Comprimento de arco}
+
+
+	 Se {\color{red}$\vec{r}=\vec{r}(t)$}, com $a\leq t\leq b$, é curva parametrizada e {\color{red}$\vec{r}\,^\prime$ } é contínua, pode-se mostrar que o \dt{comprimento de arco} é dado por:
+	\[{\color{blue}L}=\int_a^b\|{\color{red}\vec{r}\,'(t)}\|\,dt\]
+	\begin{exeb}{}{}
+		Um planador está voando para cima ao longo da hélice $\vec{r}(t)=(\cos(t),\sin(t),t)$. Qual a distância percorrida ao longo de sua trajetória entre os pontos $(1,0,0)$ e $(1,0,2\pi)$.
+	\end{exeb}
+
+\newpage
+
+Uma mesma curva $C$ pode ser representada por mais de uma parametrização. Por exemplo,
+\[\vec{\alpha}(t)=(\cos(t),\sin(t)),\ 0\leq t\leq 2\pi\]
+e
+\[\vec{\beta}(t)=(\cos(2t),\sin(2t)),\ 0\leq t\leq \pi\]
+ambas representam o círculo unitário com centro na origem.
+
+\begin{casab}{}{}
+Calcule o comprimento de arco de $\vec{\alpha}=\vec{\alpha}(t)$ e $\vec{\beta}=\vec{\beta}(t)$.
+\end{casab}

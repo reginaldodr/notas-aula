@@ -55,6 +55,10 @@ lang={brazilian},
 ]{doclicense}
 
 % Configurações gerais
+
+%background pontilhado
+\usepackage{eso-pic}
+
 \renewcommand{\baselinestretch}{1.2}
 \allowdisplaybreaks
 \makeindex
@@ -85,7 +89,22 @@ lang={brazilian},
     separator sign none
 }{teo}
 
-\newtcbtheorem[use counter from=theoremb]{exeb}{Exemplo}%
+
+
+\newtcbtheorem[use counter from=theoremb]{propb}{Proposição}%
+{
+    enhanced,
+    drop fuzzy shadow,
+    colback=blue!5!white,
+    colframe=blue!50!black,
+    fonttitle=\bfseries,
+    coltitle=white,
+    description delimiters parenthesis,
+    separator sign none
+}{prop}
+
+\newtcbtheorem[use counter from=theoremb]{exeb}{
+\includegraphics[scale=0.3]{figuras/base/exemplo.png} Exemplo}%
 {
     enhanced,
     drop fuzzy shadow,
@@ -109,7 +128,8 @@ lang={brazilian},
     separator sign none
 }{exer}
 
-\newtcbtheorem[number within=chapter]{casab}{Para Casa}%
+\newtcbtheorem[number within=chapter]{casab}{
+\includegraphics[scale=0.035]{figuras/base/w-homework.png} Para Casa}%
 {
     enhanced,
     drop fuzzy shadow,
