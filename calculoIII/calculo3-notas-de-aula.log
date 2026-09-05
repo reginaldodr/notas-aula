@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.7.28)  30 AUG 2026 15:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.7.28)  5 SEP 2026 20:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1543,13 +1543,13 @@ ine 59.
 
 (./aulas/introducao.tex
 Cap\'{\i }tulo 1.
-<figuras/introducao/curvas-polares1.png, id=87, 633.11531pt x 329.73187pt>
+<figuras/introducao/curvas-polares1.png, id=89, 633.11531pt x 329.73187pt>
 File: figuras/introducao/curvas-polares1.png Graphic file (type png)
 <use figuras/introducao/curvas-polares1.png>
 Package pdftex.def Info: figuras/introducao/curvas-polares1.png  used on input 
 line 15.
 (pdftex.def)             Requested size: 379.87212pt x 197.84064pt.
-<figuras/introducao/cardioide-micro.png, id=88, 690.32906pt x 685.8122pt>
+<figuras/introducao/cardioide-micro.png, id=90, 690.32906pt x 685.8122pt>
 File: figuras/introducao/cardioide-micro.png Graphic file (type png)
 <use figuras/introducao/cardioide-micro.png>
 Package pdftex.def Info: figuras/introducao/cardioide-micro.png  used on input 
@@ -1560,7 +1560,7 @@ line 23.
 
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} <./figuras/introduc
 ao/curvas-polares1.png (PNG copy)>]
-<figuras/introducao/dna.png, id=95, 94.10156pt x 158.09062pt>
+<figuras/introducao/dna.png, id=97, 94.10156pt x 158.09062pt>
 File: figuras/introducao/dna.png Graphic file (type png)
 <use figuras/introducao/dna.png>
 Package pdftex.def Info: figuras/introducao/dna.png  used on input line 37.
@@ -1581,7 +1581,7 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
 
 [4 <./figuras/introducao/cardioide-micro.png> <./figuras/introducao/dna.png>]
-<figuras/introducao/curvatura.png, id=102, 629.35126pt x 551.05875pt>
+<figuras/introducao/curvatura.png, id=104, 629.35126pt x 551.05875pt>
 File: figuras/introducao/curvatura.png Graphic file (type png)
 <use figuras/introducao/curvatura.png>
 Package pdftex.def Info: figuras/introducao/curvatura.png  used on input line 5
@@ -1596,12 +1596,12 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
 
 [5 <./figuras/introducao/curvatura.png>]
-<figuras/nivel2.png, id=112, 249.93375pt x 261.22594pt>
+<figuras/nivel2.png, id=114, 249.93375pt x 261.22594pt>
 File: figuras/nivel2.png Graphic file (type png)
 <use figuras/nivel2.png>
 Package pdftex.def Info: figuras/nivel2.png  used on input line 71.
 (pdftex.def)             Requested size: 249.93314pt x 261.22528pt.
-<figuras/nivel3.png, id=113, 802.49812pt x 487.8225pt>
+<figuras/nivel3.png, id=115, 802.49812pt x 487.8225pt>
 File: figuras/nivel3.png Graphic file (type png)
 <use figuras/nivel3.png>
 Package pdftex.def Info: figuras/nivel3.png  used on input line 76.
@@ -1615,7 +1615,7 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
 
 [6 <./figuras/nivel2.png (PNG copy)> <./figuras/nivel3.png (PNG copy)>]
-<figuras/introducao/cobb-res.png, id=119, 616.55344pt x 429.10312pt>
+<figuras/introducao/cobb-res.png, id=121, 616.55344pt x 429.10312pt>
 File: figuras/introducao/cobb-res.png Graphic file (type png)
 <use figuras/introducao/cobb-res.png>
 Package pdftex.def Info: figuras/introducao/cobb-res.png  used on input line 98
@@ -1636,7 +1636,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
-<figuras/base/exemplo.png, id=126, 59.9841pt x 58.5387pt>
+<figuras/base/exemplo.png, id=128, 59.9841pt x 58.5387pt>
 File: figuras/base/exemplo.png Graphic file (type png)
 <use figuras/base/exemplo.png>
 Package pdftex.def Info: figuras/base/exemplo.png  used on input line 46.
@@ -1657,7 +1657,7 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
 
 [9 <./figuras/base/exemplo.png>]
-<figuras/normal-vector.png, id=140, 226.446pt x 187.902pt>
+<figuras/normal-vector.png, id=142, 226.446pt x 187.902pt>
 File: figuras/normal-vector.png Graphic file (type png)
 <use figuras/normal-vector.png>
 Package pdftex.def Info: figuras/normal-vector.png  used on input line 63.
@@ -1675,7 +1675,7 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
 
 [10 <./figuras/normal-vector.png>]
-<figuras/base/w-homework.png, id=150, 513.92pt x 452.69125pt>
+<figuras/base/w-homework.png, id=152, 513.92pt x 452.69125pt>
 File: figuras/base/w-homework.png Graphic file (type png)
 <use figuras/base/w-homework.png>
 Package pdftex.def Info: figuras/base/w-homework.png  used on input line 83.
@@ -1696,7 +1696,7 @@ File: figuras/base/exemplo.png Graphic file (type png)
 <use figuras/base/exemplo.png>
 Package pdftex.def Info: figuras/base/exemplo.png  used on input line 9.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-<figuras/cilindro-ex1.png, id=161, 163.0893pt x 150.8034pt>
+<figuras/cilindro-ex1.png, id=163, 163.0893pt x 150.8034pt>
 File: figuras/cilindro-ex1.png Graphic file (type png)
 <use figuras/cilindro-ex1.png>
 Package pdftex.def Info: figuras/cilindro-ex1.png  used on input line 13.
@@ -1716,25 +1716,25 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 [12
 
  <./figuras/cilindro-ex1.png>]
-<figuras/quadricas/parab-hip.png, id=172, 997.7275pt x 953.5625pt>
+<figuras/quadricas/parab-hip.png, id=174, 997.7275pt x 953.5625pt>
 File: figuras/quadricas/parab-hip.png Graphic file (type png)
 <use figuras/quadricas/parab-hip.png>
 Package pdftex.def Info: figuras/quadricas/parab-hip.png  used on input line 38
 .
 (pdftex.def)             Requested size: 129.70912pt x 123.96747pt.
-<figuras/quadricas/elipsoide.png, id=173, 190.7928pt x 132.9768pt>
+<figuras/quadricas/elipsoide.png, id=175, 190.7928pt x 132.9768pt>
 File: figuras/quadricas/elipsoide.png Graphic file (type png)
 <use figuras/quadricas/elipsoide.png>
 Package pdftex.def Info: figuras/quadricas/elipsoide.png  used on input line 41
 .
 (pdftex.def)             Requested size: 152.63443pt x 106.38158pt.
-<figuras/quadricas/elipsoide-padrao.png, id=174, 435.87843pt x 316.18124pt>
+<figuras/quadricas/elipsoide-padrao.png, id=176, 435.87843pt x 316.18124pt>
 File: figuras/quadricas/elipsoide-padrao.png Graphic file (type png)
 <use figuras/quadricas/elipsoide-padrao.png>
 Package pdftex.def Info: figuras/quadricas/elipsoide-padrao.png  used on input 
 line 53.
 (pdftex.def)             Requested size: 217.93867pt x 158.09023pt.
-<figuras/quadricas/hiperboloide1-padrao.png, id=175, 295.1025pt x 453.94594pt>
+<figuras/quadricas/hiperboloide1-padrao.png, id=177, 295.1025pt x 453.94594pt>
 File: figuras/quadricas/hiperboloide1-padrao.png Graphic file (type png)
 <use figuras/quadricas/hiperboloide1-padrao.png>
 Package pdftex.def Info: figuras/quadricas/hiperboloide1-padrao.png  used on in
@@ -1750,14 +1750,14 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 
 [13 <./figuras/quadricas/parab-hip.png> <./figuras/quadricas/elipsoide.png> <./
 figuras/quadricas/elipsoide-padrao.png (PNG copy)>]
-<figuras/quadricas/hiperboloide2-padrao.png, id=184, 273.27094pt x 496.10344pt>
+<figuras/quadricas/hiperboloide2-padrao.png, id=186, 273.27094pt x 496.10344pt>
 
 File: figuras/quadricas/hiperboloide2-padrao.png Graphic file (type png)
 <use figuras/quadricas/hiperboloide2-padrao.png>
 Package pdftex.def Info: figuras/quadricas/hiperboloide2-padrao.png  used on in
 put line 72.
 (pdftex.def)             Requested size: 136.63512pt x 248.0511pt.
-<figuras/quadricas/cone-padrao.png, id=185, 255.20343pt x 432.86719pt>
+<figuras/quadricas/cone-padrao.png, id=187, 255.20343pt x 432.86719pt>
 File: figuras/quadricas/cone-padrao.png Graphic file (type png)
 <use figuras/quadricas/cone-padrao.png>
 Package pdftex.def Info: figuras/quadricas/cone-padrao.png  used on input line 
@@ -1773,13 +1773,13 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 
 [14 <./figuras/quadricas/hiperboloide1-padrao.png (PNG copy)> <./figuras/quadri
 cas/hiperboloide2-padrao.png (PNG copy)>]
-<figuras/quadricas/paraboloide-padrao.png, id=190, 294.34969pt x 450.18187pt>
+<figuras/quadricas/paraboloide-padrao.png, id=192, 294.34969pt x 450.18187pt>
 File: figuras/quadricas/paraboloide-padrao.png Graphic file (type png)
 <use figuras/quadricas/paraboloide-padrao.png>
 Package pdftex.def Info: figuras/quadricas/paraboloide-padrao.png  used on inpu
 t line 90.
 (pdftex.def)             Requested size: 147.17447pt x 225.09038pt.
-<figuras/quadricas/paraboloide-hiperbolico-padrao.png, id=191, 526.96875pt x 42
+<figuras/quadricas/paraboloide-hiperbolico-padrao.png, id=193, 526.96875pt x 42
 9.85594pt>
 File: figuras/quadricas/paraboloide-hiperbolico-padrao.png Graphic file (type p
 ng)
@@ -1814,7 +1814,7 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
 
 [16 <./figuras/quadricas/paraboloide-hiperbolico-padrao.png (PNG copy)>]
-<figuras/quadricas/exerc12-6A.png, id=204, 431.36156pt x 363.60844pt>
+<figuras/quadricas/exerc12-6A.png, id=206, 431.36156pt x 363.60844pt>
 File: figuras/quadricas/exerc12-6A.png Graphic file (type png)
 <use figuras/quadricas/exerc12-6A.png>
 Package pdftex.def Info: figuras/quadricas/exerc12-6A.png  used on input line 1
@@ -1825,7 +1825,7 @@ Overfull \hbox (7.99535pt too wide) in paragraph at lines 168--169
 [][] 
  []
 
-<figuras/quadricas/exerc12-6B.png, id=205, 455.45157pt x 356.83313pt>
+<figuras/quadricas/exerc12-6B.png, id=207, 455.45157pt x 356.83313pt>
 File: figuras/quadricas/exerc12-6B.png Graphic file (type png)
 <use figuras/quadricas/exerc12-6B.png>
 Package pdftex.def Info: figuras/quadricas/exerc12-6B.png  used on input line 1
@@ -1836,7 +1836,7 @@ Overfull \hbox (22.44946pt too wide) in paragraph at lines 172--173
 [][] 
  []
 
-<figuras/quadricas/exerc12-6C.png, id=206, 408.77719pt x 328.22626pt>
+<figuras/quadricas/exerc12-6C.png, id=208, 408.77719pt x 328.22626pt>
 File: figuras/quadricas/exerc12-6C.png Graphic file (type png)
 <use figuras/quadricas/exerc12-6C.png>
 Package pdftex.def Info: figuras/quadricas/exerc12-6C.png  used on input line 1
@@ -1851,7 +1851,7 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 
 [17 <./figuras/quadricas/exerc12-6A.png> <./figuras/quadricas/exerc12-6B.png> <
 ./figuras/quadricas/exerc12-6C.png>]
-<figuras/quadricas/meme-osextosentido.png, id=227, 1407.2575pt x 1126.2075pt>
+<figuras/quadricas/meme-osextosentido.png, id=229, 1407.2575pt x 1126.2075pt>
 File: figuras/quadricas/meme-osextosentido.png Graphic file (type png)
 <use figuras/quadricas/meme-osextosentido.png>
 Package pdftex.def Info: figuras/quadricas/meme-osextosentido.png  used on inpu
@@ -1866,13 +1866,13 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
 
 [18 <./figuras/quadricas/meme-osextosentido.png (PNG copy)>]
-<figuras/quadricas/pringles.png, id=233, 662.475pt x 252.945pt>
+<figuras/quadricas/pringles.png, id=235, 662.475pt x 252.945pt>
 File: figuras/quadricas/pringles.png Graphic file (type png)
 <use figuras/quadricas/pringles.png>
 Package pdftex.def Info: figuras/quadricas/pringles.png  used on input line 196
 .
 (pdftex.def)             Requested size: 331.2367pt x 126.47218pt.
-<figuras/quadricas/aplicacoes.png, id=234, 1072.75781pt x 531.48563pt>
+<figuras/quadricas/aplicacoes.png, id=236, 1072.75781pt x 531.48563pt>
 File: figuras/quadricas/aplicacoes.png Graphic file (type png)
 <use figuras/quadricas/aplicacoes.png>
 Package pdftex.def Info: figuras/quadricas/aplicacoes.png  used on input line 2
@@ -1888,14 +1888,14 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 
 [19 <./figuras/quadricas/pringles.png> <./figuras/quadricas/aplicacoes.png (PNG
  copy)>]
-<figuras/quadricas/arquitetura/manantiales.jpg, id=240, 737.75626pt x 491.8375p
+<figuras/quadricas/arquitetura/manantiales.jpg, id=242, 737.75626pt x 491.8375p
 t>
 File: figuras/quadricas/arquitetura/manantiales.jpg Graphic file (type jpg)
 <use figuras/quadricas/arquitetura/manantiales.jpg>
 Package pdftex.def Info: figuras/quadricas/arquitetura/manantiales.jpg  used on
  input line 213.
 (pdftex.def)             Requested size: 295.09727pt x 196.7315pt.
-<figuras/quadricas/arquitetura/manantiales_diagrama.jpg, id=241, 803.0pt x 477.
+<figuras/quadricas/arquitetura/manantiales_diagrama.jpg, id=243, 803.0pt x 477.
 785pt>
 File: figuras/quadricas/arquitetura/manantiales_diagrama.jpg Graphic file (type
  jpg)
@@ -1903,7 +1903,7 @@ File: figuras/quadricas/arquitetura/manantiales_diagrama.jpg Graphic file (type
 Package pdftex.def Info: figuras/quadricas/arquitetura/manantiales_diagrama.jpg
   used on input line 219.
 (pdftex.def)             Requested size: 321.1943pt x 191.11061pt.
-<figuras/quadricas/arquitetura/vila-velha.png, id=242, 221.8689pt x 138.5175pt>
+<figuras/quadricas/arquitetura/vila-velha.png, id=244, 221.8689pt x 138.5175pt>
 
 File: figuras/quadricas/arquitetura/vila-velha.png Graphic file (type png)
 <use figuras/quadricas/arquitetura/vila-velha.png>
@@ -1941,7 +1941,7 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 
 
 ]
-<figuras/polar/polar-grid.png, id=254, 314.3745pt x 310.39964pt>
+<figuras/polar/polar-grid.png, id=256, 314.3745pt x 310.39964pt>
 File: figuras/polar/polar-grid.png Graphic file (type png)
 <use figuras/polar/polar-grid.png>
 Package pdftex.def Info: figuras/polar/polar-grid.png  used on input line 96.
@@ -1976,13 +1976,13 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
 
 [23]
-<figuras/grafico-aux-cardioide.png, id=273, 462.528pt x 346.896pt>
+<figuras/grafico-aux-cardioide.png, id=275, 462.528pt x 346.896pt>
 File: figuras/grafico-aux-cardioide.png Graphic file (type png)
 <use figuras/grafico-aux-cardioide.png>
 Package pdftex.def Info: figuras/grafico-aux-cardioide.png  used on input line 
 159.
 (pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
-<figuras/polar/cardioide1.png, id=274, 462.528pt x 346.896pt>
+<figuras/polar/cardioide1.png, id=276, 462.528pt x 346.896pt>
 File: figuras/polar/cardioide1.png Graphic file (type png)
 <use figuras/polar/cardioide1.png>
 Package pdftex.def Info: figuras/polar/cardioide1.png  used on input line 163.
@@ -1996,7 +1996,7 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
 
 [24 <./figuras/grafico-aux-cardioide.png> <./figuras/polar/cardioide1.png>]
-<figuras/polar/cardioide3.png, id=283, 462.528pt x 346.896pt>
+<figuras/polar/cardioide3.png, id=285, 462.528pt x 346.896pt>
 File: figuras/polar/cardioide3.png Graphic file (type png)
 <use figuras/polar/cardioide3.png>
 Package pdftex.def Info: figuras/polar/cardioide3.png  used on input line 190.
@@ -2077,7 +2077,7 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
 
 [30]
-<figuras/curvas/param-curvas-espaco.png, id=340, 523.20468pt x 373.395pt>
+<figuras/curvas/param-curvas-espaco.png, id=342, 523.20468pt x 373.395pt>
 File: figuras/curvas/param-curvas-espaco.png Graphic file (type png)
 <use figuras/curvas/param-curvas-espaco.png>
 Package pdftex.def Info: figuras/curvas/param-curvas-espaco.png  used on input 
@@ -2096,13 +2096,13 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
 
 [31 <./figuras/curvas/param-curvas-espaco.png>]
-<figuras/DirkvdM_natural_spiral.jpg, id=350, 855.195pt x 1140.26pt>
+<figuras/DirkvdM_natural_spiral.jpg, id=352, 855.195pt x 1140.26pt>
 File: figuras/DirkvdM_natural_spiral.jpg Graphic file (type jpg)
 <use figuras/DirkvdM_natural_spiral.jpg>
 Package pdftex.def Info: figuras/DirkvdM_natural_spiral.jpg  used on input line
  154.
 (pdftex.def)             Requested size: 171.03596pt x 228.04796pt.
-<figuras/mola.jpg, id=351, 152.4897pt x 85.0377pt>
+<figuras/mola.jpg, id=353, 152.4897pt x 85.0377pt>
 File: figuras/mola.jpg Graphic file (type jpg)
 <use figuras/mola.jpg>
 Package pdftex.def Info: figuras/mola.jpg  used on input line 157.
@@ -2124,7 +2124,7 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
 
 [32 <./figuras/DirkvdM_natural_spiral.jpg> <./figuras/mola.jpg>]
-<figuras/curvas/cilindro-plano.png, id=356, 664.73344pt x 383.93437pt>
+<figuras/curvas/cilindro-plano.png, id=358, 664.73344pt x 383.93437pt>
 File: figuras/curvas/cilindro-plano.png Graphic file (type png)
 <use figuras/curvas/cilindro-plano.png>
 Package pdftex.def Info: figuras/curvas/cilindro-plano.png  used on input line 
@@ -2180,7 +2180,7 @@ File: figuras/base/exemplo.png Graphic file (type png)
 <use figuras/base/exemplo.png>
 Package pdftex.def Info: figuras/base/exemplo.png  used on input line 265.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-<figuras/vetor-const.png, id=391, 444.91219pt x 450.18187pt>
+<figuras/vetor-const.png, id=393, 444.91219pt x 450.18187pt>
 File: figuras/vetor-const.png Graphic file (type png)
 <use figuras/vetor-const.png>
 Package pdftex.def Info: figuras/vetor-const.png  used on input line 270.
@@ -2235,7 +2235,7 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 ]
 File: figuras/base/exemplo.png Graphic file (type png)
 <use figuras/base/exemplo.png>
-Package pdftex.def Info: figuras/base/exemplo.png  used on input line 25.
+Package pdftex.def Info: figuras/base/exemplo.png  used on input line 30.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 
 
@@ -2248,7 +2248,7 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 [41]
 File: figuras/base/w-homework.png Graphic file (type png)
 <use figuras/base/w-homework.png>
-Package pdftex.def Info: figuras/base/w-homework.png  used on input line 35.
+Package pdftex.def Info: figuras/base/w-homework.png  used on input line 40.
 (pdftex.def)             Requested size: 17.98903pt x 15.84581pt.
 
 
@@ -2259,10 +2259,10 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
 
 [42]
-<figuras/vetor-tangente.png, id=435, 484.05844pt x 322.95656pt>
+<figuras/vetor-tangente.png, id=438, 484.05844pt x 322.95656pt>
 File: figuras/vetor-tangente.png Graphic file (type png)
 <use figuras/vetor-tangente.png>
-Package pdftex.def Info: figuras/vetor-tangente.png  used on input line 59.
+Package pdftex.def Info: figuras/vetor-tangente.png  used on input line 60.
 (pdftex.def)             Requested size: 290.4373pt x 193.77542pt.
 
 
@@ -2275,7 +2275,7 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 [43 <./figuras/vetor-tangente.png>]
 File: figuras/base/exemplo.png Graphic file (type png)
 <use figuras/base/exemplo.png>
-Package pdftex.def Info: figuras/base/exemplo.png  used on input line 84.
+Package pdftex.def Info: figuras/base/exemplo.png  used on input line 93.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 
 
@@ -2286,15 +2286,81 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
 
 [44]
-<figuras/normal-binormal.png, id=447, 557.83406pt x 580.41844pt>
+File: figuras/base/exemplo.png Graphic file (type png)
+<use figuras/base/exemplo.png>
+Package pdftex.def Info: figuras/base/exemplo.png  used on input line 110.
+(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{17.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
+
+[45]
+<figuras/normal-binormal.png, id=457, 557.83406pt x 580.41844pt>
 File: figuras/normal-binormal.png Graphic file (type png)
 <use figuras/normal-binormal.png>
-Package pdftex.def Info: figuras/normal-binormal.png  used on input line 98.
+Package pdftex.def Info: figuras/normal-binormal.png  used on input line 140.
 (pdftex.def)             Requested size: 223.12967pt x 232.16325pt.
 File: figuras/base/exemplo.png Graphic file (type png)
 <use figuras/base/exemplo.png>
-Package pdftex.def Info: figuras/base/exemplo.png  used on input line 103.
+Package pdftex.def Info: figuras/base/exemplo.png  used on input line 145.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{17.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
+
+[46 <./figuras/normal-binormal.png>]
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{17.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
+
+[47]
+File: figuras/base/exemplo.png Graphic file (type png)
+<use figuras/base/exemplo.png>
+Package pdftex.def Info: figuras/base/exemplo.png  used on input line 186.
+(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{17.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
+
+[48]
+File: figuras/base/exemplo.png Graphic file (type png)
+<use figuras/base/exemplo.png>
+Package pdftex.def Info: figuras/base/exemplo.png  used on input line 200.
+(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{17.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
+
+[49]
+File: figuras/base/w-homework.png Graphic file (type png)
+<use figuras/base/w-homework.png>
+Package pdftex.def Info: figuras/base/w-homework.png  used on input line 206.
+(pdftex.def)             Requested size: 17.98903pt x 15.84581pt.
+
+Underfull \hbox (badness 2435) in paragraph at lines 222--223
+[]\OT1/cmr/m/n/14.4 Determine uma pa-ra-me-triza^^Xc~ao para a reta tan-gente ^
+^Ra h^^Selice $[](\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 ) =
+ []
+
 )
 
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -2308,7 +2374,7 @@ File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 )
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-utf8.def
 File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
-) [45 <./figuras/normal-binormal.png>]
+) [50]
 No file calculo3-notas-de-aula.ind.
 (./calculo3-notas-de-aula.aux (./aulas/introducao.aux) (./aulas/quadricas.aux)
 (./aulas/polares.aux) (./calculovetorial.aux))
@@ -2318,10 +2384,10 @@ L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 41807 strings out of 467533
- 863300 string characters out of 5422138
+ 41842 strings out of 467533
+ 863723 string characters out of 5422138
  2174031 words of memory out of 5000000
- 69685 multiletter control sequences out of 15000+600000
+ 69699 multiletter control sequences out of 15000+600000
  640848 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  91i,15n,96p,18273b,1401s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2336,14 +2402,15 @@ public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 l12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr
-/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texlive/texmf
--dist/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
-Output written on calculo3-notas-de-aula.pdf (46 pages, 9245303 bytes).
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/
+texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/urw/zapfchan/uzcmi8a.pfb>
+Output written on calculo3-notas-de-aula.pdf (51 pages, 9271880 bytes).
 PDF statistics:
- 658 PDF objects out of 1000 (max. 8388607)
- 505 compressed objects within 6 object streams
- 181 named destinations out of 1000 (max. 500000)
- 462 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 710 PDF objects out of 1000 (max. 8388607)
+ 550 compressed objects within 6 object streams
+ 202 named destinations out of 1000 (max. 500000)
+ 478 words of extra memory for PDF output out of 10000 (max. 10000000)
 
