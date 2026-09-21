@@ -1,27 +1,32 @@
 \babel@toc {brazil}{}\relax 
-\contentsline {chapter}{\numberline {1}Motivação}{3}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Elementos de Geometria Analítica}{8}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Retas e Planos}{8}{section.2.1}%
-\contentsline {subsection}{Equação Paramétrica de uma Reta}{8}{section*.2}%
-\contentsline {subsection}{Equação Cartesiana do Plano no Espaço}{10}{section*.3}%
-\contentsline {section}{\numberline {2.2}Superfícies}{12}{section.2.2}%
-\contentsline {subsection}{Superfícies Cilíndricas}{12}{section*.4}%
-\contentsline {subsection}{Superfícies Quádricas}{13}{section*.5}%
-\contentsline {subsection}{Eu vejo quádricas...Todo o tempo!}{18}{section*.6}%
-\contentsline {section}{\numberline {2.3}Coordenadas Polares}{21}{section.2.3}%
-\contentsline {subsection}{Relação entre coordenadas cartesianas e polares}{23}{section*.7}%
-\contentsline {subsection}{Plotando a Cardioide no Python}{25}{section*.8}%
-\contentsline {chapter}{\numberline {3}Funções Vetoriais}{26}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Funções Vetoriais}{26}{section.3.1}%
-\contentsline {subsection}{Limite e Continuidade}{27}{section*.9}%
-\contentsline {subsection}{Curvas Parametrizadas}{28}{section*.10}%
-\contentsline {subsection}{Curvas Parametrizadas no Espaço}{31}{section*.11}%
-\contentsline {subsection}{Parametrização por inteseção de superfícies}{33}{section*.12}%
-\contentsline {subsection}{Derivadas}{35}{section*.13}%
-\contentsline {subsection}{Regras de Derivação}{37}{section*.14}%
-\contentsline {subsection}{Comprimento de arco}{38}{section*.15}%
-\contentsline {section}{\numberline {3.2}Cálculo Vetorial de Curvas}{40}{section.3.2}%
-\contentsline {subsection}{Parametrização pelo comprimento de arco}{40}{section*.16}%
-\contentsline {subsection}{Curvatura}{43}{section*.17}%
-\contentsline {subsection}{Vetores Normal principal e Binormal}{46}{section*.18}%
-\contentsline {subsection}{Movimento: velocidade e aceleração}{47}{section*.19}%
+\contentsline {chapter}{\numberline {1}Motivação}{4}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Elementos de Geometria Analítica}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Retas e Planos}{9}{section.2.1}%
+\contentsline {subsection}{Equação Paramétrica de uma Reta}{9}{section*.2}%
+\contentsline {subsection}{Equação Cartesiana do Plano no Espaço}{11}{section*.3}%
+\contentsline {section}{\numberline {2.2}Superfícies}{13}{section.2.2}%
+\contentsline {subsection}{Superfícies Cilíndricas}{13}{section*.4}%
+\contentsline {subsection}{Superfícies Quádricas}{14}{section*.5}%
+\contentsline {subsection}{Eu vejo quádricas...Todo o tempo!}{19}{section*.6}%
+\contentsline {section}{\numberline {2.3}Coordenadas Polares}{22}{section.2.3}%
+\contentsline {subsection}{Relação entre coordenadas cartesianas e polares}{24}{section*.7}%
+\contentsline {subsection}{Plotando a Cardioide no Python}{26}{section*.8}%
+\contentsline {chapter}{\numberline {3}Funções Vetoriais}{27}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Funções Vetoriais}{27}{section.3.1}%
+\contentsline {subsection}{Limite e Continuidade}{28}{section*.9}%
+\contentsline {subsection}{Curvas Parametrizadas}{29}{section*.10}%
+\contentsline {subsection}{Curvas Parametrizadas no Espaço}{32}{section*.11}%
+\contentsline {subsection}{Parametrização por inteseção de superfícies}{34}{section*.12}%
+\contentsline {subsection}{Derivadas}{36}{section*.13}%
+\contentsline {subsection}{Regras de Derivação}{38}{section*.14}%
+\contentsline {subsection}{Comprimento de arco}{39}{section*.15}%
+\contentsline {section}{\numberline {3.2}Cálculo Vetorial de Curvas}{41}{section.3.2}%
+\contentsline {subsection}{Parametrização pelo comprimento de arco}{41}{section*.16}%
+\contentsline {subsection}{Curvatura}{44}{section*.17}%
+\contentsline {subsection}{Vetores Normal principal e Binormal}{47}{section*.18}%
+\contentsline {subsection}{Movimento: velocidade e aceleração}{48}{section*.19}%
+\contentsline {chapter}{\numberline {4}Funções de Várias Variáveis}{53}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Funcões de Várias Variáveis}{53}{section.4.1}%
+\contentsline {subsection}{Gráfico de função}{55}{section*.20}%
+\contentsline {subsection}{Curvas de Nível}{57}{section*.21}%
+\contentsline {subsection}{Superfícies de Nível}{62}{section*.22}%
