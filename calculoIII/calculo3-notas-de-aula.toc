@@ -30,3 +30,6 @@
 \contentsline {subsection}{Gráfico de função}{55}{section*.20}%
 \contentsline {subsection}{Curvas de Nível}{57}{section*.21}%
 \contentsline {subsection}{Superfícies de Nível}{62}{section*.22}%
+\contentsline {section}{\numberline {4.2}Limite e Continuidade}{63}{section.4.2}%
+\contentsline {subsection}{Mostrando que o limite não existe}{64}{section*.23}%
+\contentsline {subsection}{Continuidade}{69}{section*.24}%

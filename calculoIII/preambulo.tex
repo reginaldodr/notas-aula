@@ -160,6 +160,16 @@ enhanced,
     title={#1}
 }
 
+\newtcolorbox{caixavermelha}[1]{
+	enhanced,
+	drop fuzzy shadow,
+	colback=red!5!white,
+	colframe=red!50!black,
+	fonttitle=\bfseries,
+	coltitle=white,
+	title={#1}
+}
+
 %----------------- Teoremas Padrão --------------------------
 \newtheorem{theorem}{Teorema}[chapter]
 \newtheorem{lemma}[theorem]{Lema}
@@ -186,6 +196,7 @@ enhanced,
 \newcommand{\nl}[1]{\|#1\|_{\mathcal{L}(X)}}
 \newcommand{\dm}{d}
 \newcommand{\vt}[1]{\overrightarrow{#1}}
+\newcommand{\pz}{(a,b)}
 
 %------------- marcadores ------------------------
 \newcommand{\marcador}[2]{%
@@ -204,7 +215,7 @@ enhanced,
 \DeclarePairedDelimiterX{\inp}[2]{\langle}{\rangle}{#1, #2}
 
 
-%----------------- Caixa de Sombra (Substituto do \shadowbox) --------------------------
+%------ Caixa de Sombra (Substituto do \shadowbox) --------------------------
 \newtcbox{\myshadowbox}{
   enhanced,
   sharp corners,
