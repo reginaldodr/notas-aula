@@ -25,11 +25,14 @@
 \contentsline {subsection}{Curvatura}{44}{section*.17}%
 \contentsline {subsection}{Vetores Normal principal e Binormal}{47}{section*.18}%
 \contentsline {subsection}{Movimento: velocidade e aceleração}{48}{section*.19}%
-\contentsline {chapter}{\numberline {4}Funções de Várias Variáveis}{53}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Funcões de Várias Variáveis}{53}{section.4.1}%
-\contentsline {subsection}{Gráfico de função}{55}{section*.20}%
-\contentsline {subsection}{Curvas de Nível}{57}{section*.21}%
-\contentsline {subsection}{Superfícies de Nível}{62}{section*.22}%
-\contentsline {section}{\numberline {4.2}Limite e Continuidade}{63}{section.4.2}%
-\contentsline {subsection}{Mostrando que o limite não existe}{64}{section*.23}%
-\contentsline {subsection}{Continuidade}{69}{section*.24}%
+\contentsline {chapter}{\numberline {4}Funções de Várias Variáveis}{52}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Funcões de Várias Variáveis}{52}{section.4.1}%
+\contentsline {subsection}{Gráfico de função}{54}{section*.20}%
+\contentsline {subsection}{Curvas de Nível}{56}{section*.21}%
+\contentsline {subsection}{Superfícies de Nível}{61}{section*.22}%
+\contentsline {section}{\numberline {4.2}Limite e Continuidade}{62}{section.4.2}%
+\contentsline {subsection}{Mostrando que o limite não existe}{63}{section*.23}%
+\contentsline {subsection}{Continuidade}{68}{section*.24}%
+\contentsline {section}{\numberline {4.3}Derivadas Parciais}{71}{section.4.3}%
+\contentsline {subsection}{Interpretação Geométrica}{72}{section*.25}%
+\contentsline {subsection}{Derivadas de Ordem superior}{75}{section*.26}%
