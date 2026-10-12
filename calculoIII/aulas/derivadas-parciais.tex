@@ -91,7 +91,7 @@ quando estes limites existem.
 
 \marcador{subsection}{Derivadas de Ordem superior}
 
-Se $z=f(x,y)$ é uma função, então  $\dx{f}$ e $\dy{f}$ também são funções de duas variáveis e portanto  podemos definir quatro novas funções que são chamadas de \dt{derivadas parciais de segunda ordem de f}, a saber:
+Se $z=f(x,y)$ é uma função, então  $\dx{f}$ e $\dy{f}$ também são funções de duas variáveis e portanto  podemos definir quatro novas funções que são chamadas de \dt{derivadas parciais de segunda ordem de \(f\)}, a saber:
 \begin{multicols}{2}
 $\displaystyle f_{xx}=\frac{\partial^2f}{\partial x^2}=\dx{}\left(\dx{f}\right)$
 
@@ -108,11 +108,187 @@ $\displaystyle f_{yy}=\frac{\partial^2f}{\partial y^2}=\dy{}\left(\dy{f}\right)$
 \end{exeb}
 
 
-\vfill
+\newpage
+
+\begin{definb}{}{}
+	Uma função $f:D\subset \R^2\to \R$ é dita de {\color{blue}classe $C^k$} em um conjunto $B\subset\R^2$ quando todas as derivadas parciais até ordem \(k\) são contínuas em $B$. 
+\end{definb}
+
 
 \begin{theoremb}{}{} Se $z=f(x,y)$ é de classe $C^2$, então suas derivadas mistas são iguais, isto é, 
 	$$\frac{\partial^2 f}{\partial x\partial y}=\frac{\partial^2 f}{\partial y\partial x}.$$
 \end{theoremb} 
 
+\marcador{subsection}{Diferenciabilidade}
+
+Em funções de uma variável  se {\color{blue}$y=f(x)$ possui derivada  $f'(x_0)$}, então sabemos que a {\color{blue}linearização} $f$ no ponto $(x_0,f(x_0))$ é dada por
+\[L(x)=f(x_0)+f'(x_0)(x-x_0).\]
+Assim, para pequenos acréscimos $\Delta x$ na quantidade $x_0$, o valor de $f(x_0+\Delta x)$ é aproximadamente $L=f(x_0)+f'(x_0)\Delta x$, com erro
+\[E(\Delta x)=f(x_0+\Delta x)-f(x_0)-f'(x_0)\Delta x,\]
+onde {\color{red}$\displaystyle\lim_{\Delta x\to 0}\frac{E(\Delta x)}{\Delta x}=0.$} Em outras palavras, o erro $E$ é menor que o erro $\Delta x$, para valores pequenos de $\Delta x$.
 
 
+Neste caso dizemos que $f$ é {\color{blue} diferenciável} e  que 
+\[{\color{red}L(x)=f(x_0)+f'(x_0)(x-x_0)}\]
+é uma {\color{red} aproximação linear} de $f$ no ponto $x_0$.
+
+
+\newpage
+
+Analogamente, dado \(z=f(x,y)\) tal que existam as derivadas parciais
+\[
+{\color{blue}\frac{\partial f}{\partial x}(x_0,y_0) \text{ e } 
+\frac{\partial f}{\partial y}(x_0,y_0)},
+\]
+a função
+\[{\color{red}L(x,y)=f(x_0,y_0)+\dx{f}(x_0,y_0)(x-x_0)+\dy{f}(x_0,y_0)(y-y_0)}\]
+é denominada {\color{red}linearização} de $f$ no ponto $(x_0,y_0)$. 
+
+\begin{exeb}{}{linearizacao}
+ Determine uma linearização para a função \(f(x,y)=2x^2+y^2\) no ponto \((1,1)\). Em seguida use a linearização para aproximar o ponto \(f(1.1,1)\) e compare com o valor real.
+\end{exeb}
+\vfill
+
+Diferentemente do caso unidimensional, para que essa aproximação seja boa, {\color{red}não é suficiente} que apenas existam as derivadas parciais. Vejamos isso no próximo exemplo
+
+\begin{exeb}{}{}
+Considere a função
+\[f(x,y)=\left\{\begin{array}{ll}
+	\displaystyle\frac{xy}{x^2+y^2}, &(x,y)\neq (0,0)\\
+	0, & (x,y)=(0,0)\\
+\end{array}\right.
+\]
+Mostre que existem as derivadas parciais no ponto \((0,0)\) e determine sua linearização. Em seguida, compare com o valor real da função no ponto \((0.1,0.1)\)
+\end{exeb}
+\newpage
+
+Para resolver esse tipo de patologia, precisamos definir a noção de {\color{blue}diferenciabilidade}.
+
+\begin{definb}{}{}
+	Uma $f:U\to \R$ é dita \dt{diferenciável
+		em $(x_0,y_0)\in U$} quando:
+		
+\begin{enumerate}
+	\item Existem $\dx{f}(x_0,y_0)$, $\dy{f}(x_0,y_0)$;
+	\item A função {\color{blue}erro}, definida por, 
+\begin{equation*}
+	E(\Delta x,\Delta y)=
+	f(x_0+\Delta x,y_0+\Delta y)-f(x_0,y_0)-\dx{f}(x_0,y_0)\Delta x-\dy{f}(x_0,y_0) \Delta y,
+\end{equation*}
+satisfaz, $\displaystyle\lim_{(\Delta x,\Delta y)\to(0,0)}\frac{E(\Delta x,\Delta y)}{\|(\Delta x,\Delta y)\|}=0$
+\end{enumerate}		
+\end{definb}
+\begin{caixavermelha}{}
+	Esta definição diz que uma função diferenciável é aquela para a qual a aproximação linear é uma boa aproximação quando $(x,y)$ está próximo de $(x_0,y_0)$.
+\end{caixavermelha}
+
+\begin{exeb}{}{}
+\begin{enumerate}
+	\item 	Mostre que a função do Exemplo \ref{exe:linearizacao} é diferenciável em \((1,1)\).
+	
+	\item Mostre que a função $f(x,y)=x^{1/3}y^{1/3}$, possui derivadas parciais no ponto $(0,0)$ mas não é diferenciável, isto é, linearização não fornece uma boa aproximação.
+\end{enumerate}
+\end{exeb}
+\newpage
+
+\begin{theoremb}{Condição suficiente para a diferenciabilidade}{}
+Se $f:U\to \R$ é de classe $C^1$ em $U$, então $f$ é diferenciável em $U$.
+\end{theoremb}
+
+\begin{exeb}{}{}
+Mostre que $f(x, y) = xe^{xy}$ é diferenciável em $(1, 0)$ e encontre sua linearização ali. Em seguida, use a linearização para aproximar $f( 1.1,-0.1)$.
+\end{exeb}
+\newpage
+
+Aproximações lineares e diferenciabilidade podem ser definidas de maneira análoga para as funções de mais que duas variáveis. 
+
+\begin{caixaazul}{Diferenciabilidade}
+Uma função  $w=f(x,y,z)$ é {\color{blue} diferenciável em $(x_0,y_0,z_0)$} quando existem as derivadas parciais no ponto $(x_0,y_0,z_0)$ e 
+\begin{multline*}
+E(\Delta x,\Delta y,\Delta z)=
+f(x_0+\Delta x,y_0+\Delta y,z_0+\Delta z)-f(x_0,y_0,z_0)\\-\dx{f}(x_0,y_0,z_0)\Delta x-\dy{f}(x_0,y_0,z_0) \Delta y-\dz{f}(x_0,y_0,z_0)\Delta z,
+\end{multline*}
+satisfaz, $\displaystyle\lim_{(\Delta x,\Delta y,\Delta z)\to(0,0,0)}\frac{E(\Delta x,\Delta y,\Delta z)}{\|(\Delta x,\Delta y,\Delta z)\|}=0$
+\end{caixaazul}
+
+Se $w=f(x,y,z)$ é diferenciável em $(x_0,y_0,z_0)$, então a {\color{blue}linearização} de $f$ no ponto $(x_0,y_0,z_0)$. 
+{\color{blue}\begin{multline*}
+		L(x,y,z)=f(x_0,y_0,z_0)+\dx{f}(x_0,y_0,z_0)(x-x_0)\\+\dy{f}(x_0,y_0,z_0)(y-y_0)+\dz{f}(x_0,y_0,z_0)(z-z_0)
+\end{multline*}}
+\begin{casab}{}{}
+Para quais valores de $(x,y)$,  $f(x,y)=\log(x^2+y^2)$  é diferenciável? Justifique.
+\end{casab} 
+\newpage
+\marcador{subsection}{Regra da Cadeia}
+
+\begin{caixaazul}{Regra da Cadeia 1} 
+Sejam $z=f(x,y)$ uma {\color{blue}função diferenciável} e $\alpha(t)=(x(t),y(t))$, $t\in I$ também  {\color{blue}diferenciável}, então a função composta $z(t)=f(\alpha(t))$ é {\color{blue}diferenciável} e
+\[
+\frac{dz}{dt}=\dx{z}\frac{dx}{dt}+\dy{z}\frac{dy}{dt}
+\]
+\end{caixaazul}
+
+
+\begin{exeb}{}{}
+Se $z=x^2y+3xy^4$, onde $x=\sin(2t)$ e $y=\cos(t)$, determine $\frac{dz}{dt}$ em $t=0$.
+\end{exeb}
+
+
+%\begin{center}
+\includegraphics[scale=.6]{figuras/cadeia1.png}
+%\end{center}
+	
+
+
+\newpage
+\begin{minipage}{0.6\textwidth}
+\begin{caixaazul}{Regra da Cadeia 2}{}
+		Sejam $z=f(x,y)$,  $x=x(t,s)$ e $y=y(t,s)$ são funções diferenciáveis, então
+\begin{enumerate}[(a)]
+\item $\displaystyle\frac{\partial z}{\partial s}={\color{red}\dx{z}}{\color{orange}\frac{\partial x}{\partial s}}+{\color{red}\dy{z}}{\color{orange}\frac{\partial y}{\partial s}}$
+\item $\displaystyle\frac{\partial z}{\partial t}={\color{red}\dx{z}}{\color{cyan}\frac{\partial x}{\partial t}}+{\color{red}\dy{z}}{\color{cyan}\frac{\partial y}{\partial t}}$
+\end{enumerate} 
+\end{caixaazul}
+\end{minipage}\qquad
+\begin{minipage}{0.3\textwidth}
+\includegraphics[scale=.5]{figuras/cadeia2.png}
+\end{minipage}
+\begin{exeb}{}{} Calcule as derivadas parciais da função $z=e^x\sin(y)$, onde $x=st^2$ e $y=s^2t$
+\end{exeb}
+\newpage
+
+\begin{caixaazul}{Regra da Cadeia Caso Geral}{}
+	Sejam $u=u(x_1,x_2,\ldots,x_n)$ e $x_j=x_j(t_1,t_2,\ldots,t_m)$ funções diferenciáveis, então
+	\[\frac{\partial u}{\partial t_i}=\frac{\partial u}{\partial x_1}\frac{\partial x_1}{\partial t_i}+\frac{\partial u}{\partial x_2}\frac{\partial x_2}{\partial t_i}+\cdots +\frac{\partial u}{\partial x_n}\frac{\partial x_n}{\partial t_i}=\sum_{k=1}^{n}\frac{\partial u}{\partial x_k}\frac{\partial x_k}{\partial t_i}
+	\]
+\end{caixaazul}
+
+\begin{exeb}{}{}
+\begin{enumerate}
+	\item Se $u=x^4y+y^2z^3$, onde $x=rse^t$, $y=rs^2e^{-t}$ e $z=r^2s\sin(t)$, determine $\frac{\partial u}{\partial s}$ quando $r=2, s=1$ e $t=0$.
+	
+	\item Escreve a fórmula da regra da cadeia para o caso em que \(w=f(x,y,z,t)\), \(x=x(u,v)\), \(y=y(u,v)\), \(z=z(u,v)\) e \(t=t(u,v)\). 
+	
+	\item Se \(z=f(x,y)\) tem derivadas parciais de segunda ordem contínuas,  \(x=r^2+s^2\) e \(y=2rs\), determine $\frac{\partial z}{\partial r}$ e \(\frac{\partial^2 z}{\partial r^2}\).
+\end{enumerate}		
+\end{exeb}
+
+\newpage
+\begin{casab}{}{}
+Se $g(s,t)=f(s^2-t^2,t^2-s^2)$ e $f$ é diferenciável, mostre que $g$ satisfaz
+		\[t\frac{\partial g}{\partial s}+s\frac{\partial g}{\partial t}=0.\]
+\end{casab}
+
+\marcador{subsection}{Vetor Gradiente}
+
+\begin{definb}{}{}
+Seja $f$ uma função de $n$ variáveis $x_1,\ldots,x_n$ que possui derivadas parciais no ponto $P_0=(a_1,\ldots,a_n)$. O \dt{vetor gradiente} de $f$ em $P_0$, denotado por $\nabla f(P_0)$, é o vetor
+$$\nabla f(P_0)=\left(\frac{\partial f}{\partial x_1},\ldots,\frac{\partial f}{\partial x_n}\right)$$
+\end{definb} 
+
+Usando a definição de vetor gradiente, a regra da cadeia pode ser escrita da forma
+	$$\frac{dz}{dt}=\nabla f(\alpha(t))\cdot \alpha'(t).$$
+
+\vfill
+\begin{theoremb}{}{} Seja $z=f(x,y)$ uma função de classe $C^1$ definida em um aberto $U\subset \R^2$. {\color{blue}O vetor gradiente é normal a qualquer curva de nível} da função $f$ nos pontos em que não se anula.
+\end{theoremb}

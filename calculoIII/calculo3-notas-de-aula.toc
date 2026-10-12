@@ -36,3 +36,6 @@
 \contentsline {section}{\numberline {4.3}Derivadas Parciais}{71}{section.4.3}%
 \contentsline {subsection}{Interpretação Geométrica}{72}{section*.25}%
 \contentsline {subsection}{Derivadas de Ordem superior}{75}{section*.26}%
+\contentsline {subsection}{Diferenciabilidade}{76}{section*.27}%
+\contentsline {subsection}{Regra da Cadeia}{81}{section*.28}%
+\contentsline {subsection}{Vetor Gradiente}{84}{section*.29}%
