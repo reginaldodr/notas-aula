@@ -39,3 +39,4 @@
 \contentsline {subsection}{Diferenciabilidade}{76}{section*.27}%
 \contentsline {subsection}{Regra da Cadeia}{81}{section*.28}%
 \contentsline {subsection}{Vetor Gradiente}{84}{section*.29}%
+\contentsline {subsection}{Derivadas Direcionais}{87}{section*.30}%

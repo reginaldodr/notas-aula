@@ -2,7 +2,7 @@
 \section{Derivadas Parciais}
 
 
-A {\color{blue}derivada parcial da função \(z=f(x,y)\) em relação a \(x\)}, denotada por \(\displaystyle\frac{\partial f}{\partial x}\), é obtida tratando-se \(y\) como uma constante e derivando-se a função \(f_1(x)=f(x,y)\) em relação a \(x\). 
+A {\color{blue}derivada parcial da função \(z=f(x,y)\) em relação a \(x\)}, denotada por \(\displaystyle\frac{\partial f}{\partial x}\), é obtida tratando-se \(y\) como uma constante e derivando-se a função \(f_1(x)=f(x,y)\) em relação a \(x\).
 
 
 \begin{exeb}{}{}
@@ -12,7 +12,7 @@ Se $f(x,y)=x^3+x^2y^3-2y^2$, determine \(\frac{\partial f}{\partial x}(2,1)\).
 
 \vfill
 
-Analogamente, a {\color{blue}derivada parcial da função \(z=f(x,y)\) em relação a \(y\)}, denotada por \(\displaystyle\frac{\partial f}{\partial y}\), é obtida tratando-se \(x\) como uma constante e derivando-se a função \(f_2(y)=f(x,y)\) em relação a \(y\). 
+Analogamente, a {\color{blue}derivada parcial da função \(z=f(x,y)\) em relação a \(y\)}, denotada por \(\displaystyle\frac{\partial f}{\partial y}\), é obtida tratando-se \(x\) como uma constante e derivando-se a função \(f_2(y)=f(x,y)\) em relação a \(y\).
 
 
 \begin{exeb}{}{}
@@ -66,14 +66,14 @@ A {\color{red}taxa de variação da temperatura}, no ponto $P=(2,-3)$, é de $-4
 $$\dx{f}(a,b)=\lim_{h\to 0}\frac{f(a+h,b)-f(a,b)}{h},$$
 quando este limite existe. Analogamente, A \dt{derivada parcial de $f$ em relação a $y$} no ponto $(a,b)$ é dada por
 $$\dy{f}(a,b)=\lim_{h\to 0}\frac{f(a,b+h)-f(a,b)}{h},$$
-	quando este limite existe. 
+	quando este limite existe.
 \end{definb}
 
 Analogamente se $f:U\subset\R^3\to \R$ uma função definida em um aberto $U$ contendo $(a,b,c)$. As derivadas parcial de $f$ em relação a $x$, $y$ e $z$  no ponto $(a,b,c)$ são dadas pelos limites
 \[\dx{f}(a,b,c)=\lim_{h\to 0}\frac{f(a+h,b,c)-f(a,b,c)}{h},\]
 \[\dy{f}(a,b,c)=\lim_{h\to 0}\frac{f(a,b+h,c)-f(a,b,c)}{h},\]
 \[\dz{f}(a,b,c)=\lim_{h\to 0}\frac{f(a,b,c+h)-f(a,b,c)}{h},\]
-quando estes limites existem. 
+quando estes limites existem.
 
 \begin{exeb}{}{}
 	Se $f(x,y,z)=e^{xy}\log(z)$, determine as derivadas parciais.
@@ -84,7 +84,7 @@ quando estes limites existem.
 \begin{casab}{}{}
 	\begin{enumerate}
 		\item Se $f(x,y)=\sin\left(\frac{x}{1+y}\right)$, calcule $f_x$ e $f_y$.
-		
+
 		\item Se $f(x,y,z)=x\sin(y-z)$, determine as derivadas parciais.
 	\end{enumerate}
 \end{casab}
@@ -96,10 +96,10 @@ Se $z=f(x,y)$ é uma função, então  $\dx{f}$ e $\dy{f}$ também são funçõe
 $\displaystyle f_{xx}=\frac{\partial^2f}{\partial x^2}=\dx{}\left(\dx{f}\right)$
 
 $\displaystyle f_{xy}=\frac{\partial^2f}{\partial y\partial x}=\dy{ }\left(\dx{f}\right)$
-		
-		
+
+
 $\displaystyle f_{yx}=\frac{\partial^2f}{\partial x\partial y}=\dx{}\left(\dy{f}\right)$
-	
+
 $\displaystyle f_{yy}=\frac{\partial^2f}{\partial y^2}=\dy{}\left(\dy{f}\right)$
 
 \end{multicols}
@@ -111,13 +111,13 @@ $\displaystyle f_{yy}=\frac{\partial^2f}{\partial y^2}=\dy{}\left(\dy{f}\right)$
 \newpage
 
 \begin{definb}{}{}
-	Uma função $f:D\subset \R^2\to \R$ é dita de {\color{blue}classe $C^k$} em um conjunto $B\subset\R^2$ quando todas as derivadas parciais até ordem \(k\) são contínuas em $B$. 
+	Uma função $f:D\subset \R^2\to \R$ é dita de {\color{blue}classe $C^k$} em um conjunto $B\subset\R^2$ quando todas as derivadas parciais até ordem \(k\) são contínuas em $B$.
 \end{definb}
 
 
-\begin{theoremb}{}{} Se $z=f(x,y)$ é de classe $C^2$, então suas derivadas mistas são iguais, isto é, 
+\begin{theoremb}{}{} Se $z=f(x,y)$ é de classe $C^2$, então suas derivadas mistas são iguais, isto é,
 	$$\frac{\partial^2 f}{\partial x\partial y}=\frac{\partial^2 f}{\partial y\partial x}.$$
-\end{theoremb} 
+\end{theoremb}
 
 \marcador{subsection}{Diferenciabilidade}
 
@@ -128,7 +128,7 @@ Assim, para pequenos acréscimos $\Delta x$ na quantidade $x_0$, o valor de $f(x
 onde {\color{red}$\displaystyle\lim_{\Delta x\to 0}\frac{E(\Delta x)}{\Delta x}=0.$} Em outras palavras, o erro $E$ é menor que o erro $\Delta x$, para valores pequenos de $\Delta x$.
 
 
-Neste caso dizemos que $f$ é {\color{blue} diferenciável} e  que 
+Neste caso dizemos que $f$ é {\color{blue} diferenciável} e  que
 \[{\color{red}L(x)=f(x_0)+f'(x_0)(x-x_0)}\]
 é uma {\color{red} aproximação linear} de $f$ no ponto $x_0$.
 
@@ -137,12 +137,12 @@ Neste caso dizemos que $f$ é {\color{blue} diferenciável} e  que
 
 Analogamente, dado \(z=f(x,y)\) tal que existam as derivadas parciais
 \[
-{\color{blue}\frac{\partial f}{\partial x}(x_0,y_0) \text{ e } 
+{\color{blue}\frac{\partial f}{\partial x}(x_0,y_0) \text{ e }
 \frac{\partial f}{\partial y}(x_0,y_0)},
 \]
 a função
 \[{\color{red}L(x,y)=f(x_0,y_0)+\dx{f}(x_0,y_0)(x-x_0)+\dy{f}(x_0,y_0)(y-y_0)}\]
-é denominada {\color{red}linearização} de $f$ no ponto $(x_0,y_0)$. 
+é denominada {\color{red}linearização} de $f$ no ponto $(x_0,y_0)$.
 
 \begin{exeb}{}{linearizacao}
  Determine uma linearização para a função \(f(x,y)=2x^2+y^2\) no ponto \((1,1)\). Em seguida use a linearização para aproximar o ponto \(f(1.1,1)\) e compare com o valor real.
@@ -167,16 +167,16 @@ Para resolver esse tipo de patologia, precisamos definir a noção de {\color{bl
 \begin{definb}{}{}
 	Uma $f:U\to \R$ é dita \dt{diferenciável
 		em $(x_0,y_0)\in U$} quando:
-		
+
 \begin{enumerate}
 	\item Existem $\dx{f}(x_0,y_0)$, $\dy{f}(x_0,y_0)$;
-	\item A função {\color{blue}erro}, definida por, 
+	\item A função {\color{blue}erro}, definida por,
 \begin{equation*}
 	E(\Delta x,\Delta y)=
 	f(x_0+\Delta x,y_0+\Delta y)-f(x_0,y_0)-\dx{f}(x_0,y_0)\Delta x-\dy{f}(x_0,y_0) \Delta y,
 \end{equation*}
 satisfaz, $\displaystyle\lim_{(\Delta x,\Delta y)\to(0,0)}\frac{E(\Delta x,\Delta y)}{\|(\Delta x,\Delta y)\|}=0$
-\end{enumerate}		
+\end{enumerate}
 \end{definb}
 \begin{caixavermelha}{}
 	Esta definição diz que uma função diferenciável é aquela para a qual a aproximação linear é uma boa aproximação quando $(x,y)$ está próximo de $(x_0,y_0)$.
@@ -185,7 +185,7 @@ satisfaz, $\displaystyle\lim_{(\Delta x,\Delta y)\to(0,0)}\frac{E(\Delta x,\Delt
 \begin{exeb}{}{}
 \begin{enumerate}
 	\item 	Mostre que a função do Exemplo \ref{exe:linearizacao} é diferenciável em \((1,1)\).
-	
+
 	\item Mostre que a função $f(x,y)=x^{1/3}y^{1/3}$, possui derivadas parciais no ponto $(0,0)$ mas não é diferenciável, isto é, linearização não fornece uma boa aproximação.
 \end{enumerate}
 \end{exeb}
@@ -200,10 +200,10 @@ Mostre que $f(x, y) = xe^{xy}$ é diferenciável em $(1, 0)$ e encontre sua line
 \end{exeb}
 \newpage
 
-Aproximações lineares e diferenciabilidade podem ser definidas de maneira análoga para as funções de mais que duas variáveis. 
+Aproximações lineares e diferenciabilidade podem ser definidas de maneira análoga para as funções de mais que duas variáveis.
 
 \begin{caixaazul}{Diferenciabilidade}
-Uma função  $w=f(x,y,z)$ é {\color{blue} diferenciável em $(x_0,y_0,z_0)$} quando existem as derivadas parciais no ponto $(x_0,y_0,z_0)$ e 
+Uma função  $w=f(x,y,z)$ é {\color{blue} diferenciável em $(x_0,y_0,z_0)$} quando existem as derivadas parciais no ponto $(x_0,y_0,z_0)$ e
 \begin{multline*}
 E(\Delta x,\Delta y,\Delta z)=
 f(x_0+\Delta x,y_0+\Delta y,z_0+\Delta z)-f(x_0,y_0,z_0)\\-\dx{f}(x_0,y_0,z_0)\Delta x-\dy{f}(x_0,y_0,z_0) \Delta y-\dz{f}(x_0,y_0,z_0)\Delta z,
@@ -211,17 +211,17 @@ f(x_0+\Delta x,y_0+\Delta y,z_0+\Delta z)-f(x_0,y_0,z_0)\\-\dx{f}(x_0,y_0,z_0)\D
 satisfaz, $\displaystyle\lim_{(\Delta x,\Delta y,\Delta z)\to(0,0,0)}\frac{E(\Delta x,\Delta y,\Delta z)}{\|(\Delta x,\Delta y,\Delta z)\|}=0$
 \end{caixaazul}
 
-Se $w=f(x,y,z)$ é diferenciável em $(x_0,y_0,z_0)$, então a {\color{blue}linearização} de $f$ no ponto $(x_0,y_0,z_0)$. 
+Se $w=f(x,y,z)$ é diferenciável em $(x_0,y_0,z_0)$, então a {\color{blue}linearização} de $f$ no ponto $(x_0,y_0,z_0)$.
 {\color{blue}\begin{multline*}
 		L(x,y,z)=f(x_0,y_0,z_0)+\dx{f}(x_0,y_0,z_0)(x-x_0)\\+\dy{f}(x_0,y_0,z_0)(y-y_0)+\dz{f}(x_0,y_0,z_0)(z-z_0)
 \end{multline*}}
 \begin{casab}{}{}
 Para quais valores de $(x,y)$,  $f(x,y)=\log(x^2+y^2)$  é diferenciável? Justifique.
-\end{casab} 
+\end{casab}
 \newpage
 \marcador{subsection}{Regra da Cadeia}
 
-\begin{caixaazul}{Regra da Cadeia 1} 
+\begin{caixaazul}{Regra da Cadeia 1}
 Sejam $z=f(x,y)$ uma {\color{blue}função diferenciável} e $\alpha(t)=(x(t),y(t))$, $t\in I$ também  {\color{blue}diferenciável}, então a função composta $z(t)=f(\alpha(t))$ é {\color{blue}diferenciável} e
 \[
 \frac{dz}{dt}=\dx{z}\frac{dx}{dt}+\dy{z}\frac{dy}{dt}
@@ -237,17 +237,23 @@ Se $z=x^2y+3xy^4$, onde $x=\sin(2t)$ e $y=\cos(t)$, determine $\frac{dz}{dt}$ em
 %\begin{center}
 \includegraphics[scale=.6]{figuras/cadeia1.png}
 %\end{center}
-	
+
 
 
 \newpage
 \begin{minipage}{0.6\textwidth}
 \begin{caixaazul}{Regra da Cadeia 2}{}
-		Sejam $z=f(x,y)$,  $x=x(t,s)$ e $y=y(t,s)$ são funções diferenciáveis, então
+Sejam ${\color{red}z=f(x,y)}$,
+${\color{red}x=x}({\color{orange}s},{\color{cyan}t})$
+e ${\color{red}y=y}({\color{orange}s},{\color{cyan}t})$ são funções diferenciáveis, então
 \begin{enumerate}[(a)]
-\item $\displaystyle\frac{\partial z}{\partial s}={\color{red}\dx{z}}{\color{orange}\frac{\partial x}{\partial s}}+{\color{red}\dy{z}}{\color{orange}\frac{\partial y}{\partial s}}$
-\item $\displaystyle\frac{\partial z}{\partial t}={\color{red}\dx{z}}{\color{cyan}\frac{\partial x}{\partial t}}+{\color{red}\dy{z}}{\color{cyan}\frac{\partial y}{\partial t}}$
-\end{enumerate} 
+\item
+$\displaystyle{\color{red}\frac{\partial z}{\partial s}}
+={\color{red}\dx{z}}{\color{orange}\frac{\partial x}{\partial s}}+{\color{red}\dy{z}}{\color{orange}\frac{\partial y}{\partial s}}$
+\item
+$\displaystyle{\color{cyan}\frac{\partial z}{\partial t}}
+={\color{red}\dx{z}}{\color{cyan}\frac{\partial x}{\partial t}}+{\color{red}\dy{z}}{\color{cyan}\frac{\partial y}{\partial t}}$
+\end{enumerate}
 \end{caixaazul}
 \end{minipage}\qquad
 \begin{minipage}{0.3\textwidth}
@@ -258,19 +264,30 @@ Se $z=x^2y+3xy^4$, onde $x=\sin(2t)$ e $y=\cos(t)$, determine $\frac{dz}{dt}$ em
 \newpage
 
 \begin{caixaazul}{Regra da Cadeia Caso Geral}{}
-	Sejam $u=u(x_1,x_2,\ldots,x_n)$ e $x_j=x_j(t_1,t_2,\ldots,t_m)$ funções diferenciáveis, então
-	\[\frac{\partial u}{\partial t_i}=\frac{\partial u}{\partial x_1}\frac{\partial x_1}{\partial t_i}+\frac{\partial u}{\partial x_2}\frac{\partial x_2}{\partial t_i}+\cdots +\frac{\partial u}{\partial x_n}\frac{\partial x_n}{\partial t_i}=\sum_{k=1}^{n}\frac{\partial u}{\partial x_k}\frac{\partial x_k}{\partial t_i}
-	\]
+Sejam ${\color{red}u=u(x_1,x_2,\ldots,x_n)}$ e ${\color{red}x_j=x_j}({\color{cyan}t_1,t_2,\ldots,t_m})$
+funções diferenciáveis, então
+\[{\color{cyan}\frac{\partial u}{\partial t_i}}
+={\color{red}\frac{\partial u}{\partial x_1}}
+{\color{cyan}\frac{\partial x_1}{\partial t_i}}
++{\color{red}\frac{\partial u}{\partial x_2}}
+{\color{cyan}\frac{\partial x_2}{\partial t_i}}
++\cdots
++{\color{red}\frac{\partial u}{\partial x_n}}
+{\color{cyan}\frac{\partial x_n}{\partial t_i}}
+=\sum_{k=1}^{n}
+{\color{red}\frac{\partial u}{\partial x_k}}
+{\color{cyan}\frac{\partial x_k}{\partial t_i}}
+\]
 \end{caixaazul}
 
 \begin{exeb}{}{}
 \begin{enumerate}
 	\item Se $u=x^4y+y^2z^3$, onde $x=rse^t$, $y=rs^2e^{-t}$ e $z=r^2s\sin(t)$, determine $\frac{\partial u}{\partial s}$ quando $r=2, s=1$ e $t=0$.
-	
-	\item Escreve a fórmula da regra da cadeia para o caso em que \(w=f(x,y,z,t)\), \(x=x(u,v)\), \(y=y(u,v)\), \(z=z(u,v)\) e \(t=t(u,v)\). 
-	
+
+	\item Escreve a fórmula da regra da cadeia para o caso em que \(w=f(x,y,z,t)\), \(x=x(u,v)\), \(y=y(u,v)\), \(z=z(u,v)\) e \(t=t(u,v)\).
+
 	\item Se \(z=f(x,y)\) tem derivadas parciais de segunda ordem contínuas,  \(x=r^2+s^2\) e \(y=2rs\), determine $\frac{\partial z}{\partial r}$ e \(\frac{\partial^2 z}{\partial r^2}\).
-\end{enumerate}		
+\end{enumerate}
 \end{exeb}
 
 \newpage
@@ -283,12 +300,117 @@ Se $g(s,t)=f(s^2-t^2,t^2-s^2)$ e $f$ é diferenciável, mostre que $g$ satisfaz
 
 \begin{definb}{}{}
 Seja $f$ uma função de $n$ variáveis $x_1,\ldots,x_n$ que possui derivadas parciais no ponto $P_0=(a_1,\ldots,a_n)$. O \dt{vetor gradiente} de $f$ em $P_0$, denotado por $\nabla f(P_0)$, é o vetor
-$$\nabla f(P_0)=\left(\frac{\partial f}{\partial x_1},\ldots,\frac{\partial f}{\partial x_n}\right)$$
-\end{definb} 
+$$\nabla f(P_0)=\left(\frac{\partial f}{\partial x_1}(P_0),\ldots,\frac{\partial f}{\partial x_n}(P_0)\right)$$
+\end{definb}
 
 Usando a definição de vetor gradiente, a regra da cadeia pode ser escrita da forma
-	$$\frac{dz}{dt}=\nabla f(\alpha(t))\cdot \alpha'(t).$$
 
-\vfill
+\begin{center}
+\destaque{
+\(
+\displaystyle\frac{d}{dt}f(\vec{\alpha}(t))
+=\nabla f(\vec{\alpha}(t))\cdot \vec{\alpha}^{\,\prime}(t).
+\)
+}
+\end{center}
+
+
+\newpage
 \begin{theoremb}{}{} Seja $z=f(x,y)$ uma função de classe $C^1$ definida em um aberto $U\subset \R^2$. {\color{blue}O vetor gradiente é normal a qualquer curva de nível} da função $f$ nos pontos em que não se anula.
 \end{theoremb}
+
+\begin{center}
+\includegraphics[scale=.4]{figuras/grad1.png}
+\end{center}
+\vfill
+
+\begin{exeb}{}{}
+Encontre a equação da reta tangente à elipse
+\[
+\frac{x^2}{4}+y^2=2
+\]
+no ponto \((-2,1)\).
+\end{exeb}
+\newpage
+
+\begin{caixaazul}{}{}
+O Teorema anterior também é válido para funções de três variáveis. Neste caso o
+{\color{blue}vetor gradiente é normal à superfície de nível} $F(x,y,z)=k.$ Este
+resultado pode ser usado para encontrar {\color{red}plano tangente à superfícies}.
+\end{caixaazul}
+
+\begin{center}
+\includegraphics[scale=0.6]{figuras/plano-tang.png}
+\end{center}
+
+\begin{exeb}{}{} Determine  as equações do plano tangente e da reta normal à superfície $S$ de equação $x^2+3y^2+4z^2=8$ em $(1,-1,1)$.
+\end{exeb}
+
+\newpage
+\marcador{subsection}{Derivadas Direcionais}
+
+\begin{definb}{}{}
+ A \dt{derivada direcional} de uma função $z=f(x,y)$ em um ponto $P_0=(x_0,y_0)$ na direção do {\color{red}vetor unitário $\vec{u}=(a,b)$}  é definida por
+\begin{equation*}
+\frac{\partial f}{\partial {\color{red}\vec{u}}}(P_0)=\lim_{ {\color{blue}h}\to 0} \frac{f(P_0+{\color{blue}h}{\color{red}\vec{u}})-f(P_0)}{{\color{blue}h}}
+=\lim_{ {\color{blue}h} \to 0 } \frac{f(x_0+{\color{blue}h}{\color{red}a},y_0+{\color{blue}h}{\color{red}b})-f(x_0,y_0)}{{\color{blue}h}},
+\end{equation*}
+se este limite existir.
+\end{definb}
+\vfill
+
+\begin{theoremb}{}{} Se $z=f(x,y)$ é diferenciável em $P_0=(x_0,y_0)$, então
+\[\frac{\partial f}{\partial \vec{u}}(P_0)=\nabla f(P_0)\cdot \vec{u}.\]
+\end{theoremb}
+\newpage
+
+A mesma definição e o último teorema valem para para funções de qualquer número de variáveis.
+
+\begin{exeb}{}{}
+Determine a derivada direcional da função $f$ no ponto $P$  na direção do vetor $\vec{v}$ em cada caso:
+\begin{enumerate}[(a)]
+\item $f(x,y)=x^2y^3-4y$, $P=(2,-1)$ e $\vec{v}=(2,5)$.
+
+\item $f(x,y,z)=x\sin(yz)$, $P=(1,3,0)$ e $\vec{v}=(1,2,-1)$.
+\end{enumerate}
+\end{exeb}
+\newpage
+
+\begin{theoremb}{}{}
+ O valor máximo da derivada direcional de uma função diferenciável $f$ é a $\|\nabla f\|$ e ocorre na direção do vetor gradiente $\nabla f$.
+\end{theoremb}
+\vfill
+
+\begin{exeb}{}{}
+ \begin{enumerate}[(a)]
+\item Em que direção, a partir do ponto \(P=(2,0)\), a função $f(x,y)=xe^y$ tem a maior taxa de variação? Qual é o valor da maior taxa de variação?
+
+
+\item Seja $T(x,y,z)=\displaystyle\frac{80}{1+x^2+2y^2+3z^2}$ a temperatura, em graus
+Celsius, em um ponto $(x,y,z)$ do espaço, cujas coordenadas são dadas em metros. Em que
+direção no ponto $(1,1,-2)$ a temperatura aumenta mais rapidamente? Qual é a taxa
+máxima de aumento?
+\end{enumerate}
+\end{exeb}
+\newpage
+
+\begin{caixaazul}{Propriedades do Vetor Gradiente}{}
+Seja $f$ uma função diferenciável de duas ou três
+variáveis e suponha que $\nabla f(P)\neq 0$.
+
+\begin{itemize}
+\item A derivada direcional de $f$ em $P$, na direção de um {\color{red}vetor unitário}
+$\vec{u}$, é dada por
+\[\frac{\partial f}{\partial \vec{u}}(P)=\nabla f(P)\cdot \vec{u}\]
+\item $\nabla f(P)$ aponta na direção em que a taxa de crescimento de $f$ em $P$ é máxima e essa taxa máxima de variação é igual a $\|\nabla f(P)\|$
+
+\item $\nabla f(P)$ é perpendicular à curva ou à superfície de nível de $f$ em $P$.
+
+\item Em dimensão 2, a {\color{blue}curva de maior crescimento}  pode ser desenhada partindo-se de um
+ponto e andando perpendicularmente a todas as curvas de nível.
+ \end{itemize}
+\end{caixaazul}
+
+\begin{center}
+\includegraphics[scale=1]{figuras/grad2.png}
+\end{center}

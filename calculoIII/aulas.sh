@@ -30,7 +30,7 @@ echo "Extraindo páginas: $PAGINAS"
 echo "Salvando em: $SAIDA"
 echo "---------------------------------------"
 
-qpdf "$ENTRADA" --pages "$ENTRADA" 1-3,"$PAGINAS" -- "$SAIDA"
+qpdf "$ENTRADA" --pages "$ENTRADA" "$PAGINAS" -- "$SAIDA"
 
 if [ $? -eq 0 ]; then
     echo "Concluído! Arquivo gerado: $SAIDA"
