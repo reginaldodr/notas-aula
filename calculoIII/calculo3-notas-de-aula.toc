@@ -40,3 +40,9 @@
 \contentsline {subsection}{Regra da Cadeia}{81}{section*.28}%
 \contentsline {subsection}{Vetor Gradiente}{84}{section*.29}%
 \contentsline {subsection}{Derivadas Direcionais}{87}{section*.30}%
+\contentsline {section}{\numberline {4.4}Otimização}{90}{section.4.4}%
+\contentsline {subsection}{Extremos locais}{90}{section*.31}%
+\contentsline {subsection}{Pontos críticos}{92}{section*.32}%
+\contentsline {subsection}{Teste da Segunda Derivada}{93}{section*.33}%
+\contentsline {subsection}{Extremos Globais}{94}{section*.34}%
+\contentsline {subsection}{Topologia no plano}{95}{section*.35}%
